@@ -2,7 +2,7 @@
 
 🔴 开源贡献者 · 专注 **AI Agent 工具链**（provider 协议 / 流式状态机 / SSRF 防护 / Windows 平台）
 
-> 两个多月里向 **16 个开源仓库**提交了 **25 个 PR** 和 **16 个 issue**——其中 **10 个 commit 已合并**进 4 个仓库的主干，覆盖从 8 万★ 的 Home Assistant 到 62.8k★ 的 litellm。
+> 两个多月里向 **16 个开源仓库**提交了 **26 个 PR** 和 **16 个 issue**——其中 **11 个 commit 已合并**进 4 个仓库的主干，覆盖从 1.4万★ 的 pr-agent 到 **22.5万★ 的 opencode**。
 
 ## 🏆 已合并贡献
 
@@ -10,7 +10,7 @@
 |---|---|---|---|
 | **cline** | **7.1万** | [#15520](https://github.com/cline/cline/pull/15520) ✅ | 修复 VS Code 扩展中断任务的 reasoning 文本泄漏 + 自动续跑路径的同类重复 |
 | **Home Assistant** | **8万+** | [#189635](https://github.com/home-assistant/core/pull/189635) ✅ [#189876](https://github.com/home-assistant/core/pull/189876) ✅ | tplink_omada 集成 StopIteration 崩溃修复；imou 设备发现错误指纹清理 |
-| **pr-agent** | 1.4万 | [#4651](https://github.com/The-PR-Agent/pr-agent/pull/4651) ✅ | GitLab diff 文件头误计入变更行数（行数统计从根上就是错的） |
+| **pr-agent** | 1.4万 | [#4651](https://github.com/The-PR-Agent/pr-agent/pull/4651) ✅ [#4761](https://github.com/The-PR-Agent/pr-agent/pull/4761) ✅ | GitLab diff 文件头误计入变更行数；压缩路径把 +++ 文件头误判为新增导致删除 hunk 永不剔除（官方 bot 审查全绿） |
 | **Mika** | — | 4 commits | 跨时区计划触发修复；计划触发预览；SSE 协议终态收尾；回放审批分叉——**随 v0.1.34/35/36 三个版本发布** |
 
 ## 🚀 审查中
@@ -23,11 +23,12 @@
 | **pr-agent** | 1.4万 | [#4652](https://github.com/The-PR-Agent/pr-agent/pull/4652) | describe 标题剥除损坏 + 四反引号 fence 回归，等详审 |
 | **TestSprite** | 5千 | [#723](https://github.com/TestSprite/testsprite-cli/pull/723) · [#724](https://github.com/TestSprite/testsprite-cli/pull/724) | MERGEABLE，等评审窗口 |
 | **opencode** | **22.5万** | [#61462](https://github.com/anomalyco/opencode/pull/61462) · [#61463](https://github.com/anomalyco/opencode/pull/61463) · [#61464](https://github.com/anomalyco/opencode/pull/61464) | 事件重投递去重三连修，等 triage |
+| **litellm** | 6.3万 | [#50249](https://github.com/BerriAI/litellm/pull/50249) | cohere embeddings 忽略 COHERE_API_BASE（与 rerank 路径不对称）——审查意见三点已全部响应，CLA 已签 |
 
 ## 🎯 被采纳的报告与审查
 
 - **pydantic-ai** [#12367](https://github.com/pydantic/pydantic-ai/issues/12367)（`p:2-high`）：压缩混合基数减法缺陷——官方 bot 2 小时内按我的诊断转成修复 PR
-- **OpenHands** [#19278](https://github.com/OpenHands/OpenHands/issues/19278)：V0/V1 事件存储断层 + 静默丢弃——核心成员认领实现中
+- **OpenHands** [#19278](https://github.com/OpenHands/OpenHands/issues/19278)：V0/V1 事件存储断层 + 静默丢弃——贡献者认领实现中，我提供了 resume 语义锚点（服务端 cap 路径）
 - **Mika** [#295](https://github.com/wangzan101/Mika/issues/295)：Ollama 流式挂死定位——修复随 v0.1.37 发布，维护者公开致谢
 - **caveman** [#1437](https://github.com/JuliusBrussee/caveman/issues/1437)/[#1453](https://github.com/JuliusBrussee/caveman/issues/1453)/[#1457](https://github.com/JuliusBrussee/caveman/issues/1457)：三个诊断全部确认并修复——*「your diagnosis and your suggested fix were both right」*「a cleaner statement of it than the commit message manages」
 - **pr-agent** [#4653](https://github.com/The-PR-Agent/pr-agent/issues/4653)：Action 双跑——第三方次日按此修复（#4654 合并），维护者致谢 *「precise report」*
