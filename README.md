@@ -12,7 +12,7 @@
 | **Home Assistant** | **8万+** | [#189635](https://github.com/home-assistant/core/pull/189635) ✅ [#189876](https://github.com/home-assistant/core/pull/189876) ✅ [#190963](https://github.com/home-assistant/core/pull/190963) | 已合并：tplink_omada PSK 脱敏、imou 指纹清理；**审查中**：端口消失导致的 sensor KeyError 修复（core MEMBER 审查中） |
 | **pr-agent** | 1.4万 | [#4651](https://github.com/The-PR-Agent/pr-agent/pull/4651) ✅ [#4761](https://github.com/The-PR-Agent/pr-agent/pull/4761) ✅ | GitLab diff 文件头误计入变更行数；压缩路径把 +++ 文件头误判为新增导致删除 hunk 永不剔除（官方 bot 审查全绿） |
 | **geoai** | 3.5k | [#949](https://github.com/opengeos/geoai/pull/949) ✅ | SAM prompted 模式忽略 device/model 参数——作者（田纳西大学 Qiusheng Wu 教授）批准合并 |
-| **Mika** | — | [#309](https://github.com/wangzan101/Mika/pull/309) ✅ [#305](https://github.com/wangzan101/Mika/pull/305) ✅ | 4 commits——**正式 contributor（3 个 commit 的 author）**：跨时区计划触发修复、计划触发预览、SSE 协议终态收尾、回放审批分叉；**随 v0.1.34/35/36 三个版本发布**，issue #304 被维护者确认修复并关闭 |
+| **Mika** | 7.7k | [#309](https://github.com/wangzan101/Mika/pull/309) ✅ [#305](https://github.com/wangzan101/Mika/pull/305) ✅ | 4 commits——**正式 contributor（3 个 commit 的 author）**：跨时区计划触发修复、计划触发预览、SSE 协议终态收尾、回放审批分叉；**随 v0.1.34/35/36 三个版本发布**，issue #304 被维护者确认修复并关闭 |
 
 ## 🚀 审查中
 
