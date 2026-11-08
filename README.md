@@ -14,22 +14,22 @@
 
 | 仓库 | ★ | PR | 修了什么 |
 |---|---|---|---|
-| cline | 71k | [#15520](https://github.com/cline/cline/pull/15520) | 中断任务的 reasoning 文本泄漏进下一轮，以及自动续跑路径的同类重复 |
-| Home Assistant | 92k | [#189635](https://github.com/home-assistant/core/pull/189635) [#189876](https://github.com/home-assistant/core/pull/189876) | tplink_omada 诊断的 PSK 脱敏；imou 发现里过期的 Dahua DHCP 指纹 |
-| pr-agent | 16k | [#4651](https://github.com/The-PR-Agent/pr-agent/pull/4651) | GitLab diff 的文件头被误计入每文件变更行数 |
-| geoai | 3.5k | [#949](https://github.com/opengeos/geoai/pull/949) [#950](https://github.com/opengeos/geoai/pull/950) | SamGeo `device="cpu"` 崩溃（参数未透传）；prithvi 缺 einops 依赖 |
-| Mika | 7.7k | [#222](https://github.com/wangzan101/Mika/pull/222) [#309](https://github.com/wangzan101/Mika/pull/309) [#305](https://github.com/wangzan101/Mika/pull/305) | 跨时区计划重算、SSE 协议终态收尾、回放审批分叉。3 个 commit 的 author，随 v0.1.34 / v0.1.36 发布；PR 本身被维护者重整后关闭，commit 保留署名 |
+| [cline](https://github.com/cline/cline) | 71k | [#15520](https://github.com/cline/cline/pull/15520) | 中断任务的 reasoning 文本泄漏进下一轮，以及自动续跑路径的同类重复 |
+| [Home Assistant](https://github.com/home-assistant/core) | 92k | [#189635](https://github.com/home-assistant/core/pull/189635) [#189876](https://github.com/home-assistant/core/pull/189876) | tplink_omada 诊断的 PSK 脱敏；imou 发现里过期的 Dahua DHCP 指纹 |
+| [pr-agent](https://github.com/The-PR-Agent/pr-agent) | 16k | [#4651](https://github.com/The-PR-Agent/pr-agent/pull/4651) | GitLab diff 的文件头被误计入每文件变更行数 |
+| [geoai](https://github.com/opengeos/geoai) | 3.5k | [#949](https://github.com/opengeos/geoai/pull/949) [#950](https://github.com/opengeos/geoai/pull/950) | SamGeo `device="cpu"` 崩溃（参数未透传）；prithvi 缺 einops 依赖 |
+| [Mika](https://github.com/wangzan101/Mika) | 7.7k | [#222](https://github.com/wangzan101/Mika/pull/222) [#309](https://github.com/wangzan101/Mika/pull/309) [#305](https://github.com/wangzan101/Mika/pull/305) | 跨时区计划重算、SSE 协议终态收尾、回放审批分叉。3 个 commit 的 author，随 v0.1.34 / v0.1.36 发布；PR 本身被维护者重整后关闭，commit 保留署名 |
 
 ## 在审
 
 | 仓库 | ★ | PR | 状态 |
 |---|---|---|---|
-| open-design | 107k | [#9275](https://github.com/nexu-io/open-design/pull/9275) | APPROVED，等 QA |
-| OpenHands | 93k | [#19281](https://github.com/OpenHands/OpenHands/pull/19281) [#19328](https://github.com/OpenHands/OpenHands/pull/19328) | CI 全绿，等 review |
-| opencode | 225k | [#61462](https://github.com/anomalyco/opencode/pull/61462) [#61463](https://github.com/anomalyco/opencode/pull/61463) [#61464](https://github.com/anomalyco/opencode/pull/61464) | 事件重复投递的幂等三连修 |
-| litellm | 63k | [#50249](https://github.com/BerriAI/litellm/pull/50249) | cohere embeddings 忽略 `COHERE_API_BASE`；审查意见已响应，CLA 已签 |
-| CopilotKit | 39k | [#8222](https://github.com/CopilotKit/CopilotKit/pull/8222) [#8195](https://github.com/CopilotKit/CopilotKit/pull/8195) | HITL 应答按 tool call id 精确路由 |
-| GeoLibre | 8.5k | [#3301](https://github.com/opengeos/GeoLibre/pull/3301) | 插件读取自身 bundle 内的资源（#2782 item 1） |
+| [open-design](https://github.com/nexu-io/open-design) | 107k | [#9275](https://github.com/nexu-io/open-design/pull/9275) | APPROVED，等 QA |
+| [OpenHands](https://github.com/OpenHands/OpenHands) | 93k | [#19281](https://github.com/OpenHands/OpenHands/pull/19281) [#19328](https://github.com/OpenHands/OpenHands/pull/19328) | CI 全绿，等 review |
+| [opencode](https://github.com/anomalyco/opencode) | 225k | [#61462](https://github.com/anomalyco/opencode/pull/61462) [#61463](https://github.com/anomalyco/opencode/pull/61463) [#61464](https://github.com/anomalyco/opencode/pull/61464) | 事件重复投递的幂等三连修 |
+| [litellm](https://github.com/BerriAI/litellm) | 63k | [#50249](https://github.com/BerriAI/litellm/pull/50249) | cohere embeddings 忽略 `COHERE_API_BASE`；审查意见已响应，CLA 已签 |
+| [CopilotKit](https://github.com/CopilotKit/CopilotKit) | 39k | [#8222](https://github.com/CopilotKit/CopilotKit/pull/8222) [#8195](https://github.com/CopilotKit/CopilotKit/pull/8195) | HITL 应答按 tool call id 精确路由 |
+| [GeoLibre](https://github.com/opengeos/GeoLibre) | 8.5k | [#3301](https://github.com/opengeos/GeoLibre/pull/3301) | 插件读取自身 bundle 内的资源（#2782 item 1） |
 
 <details>
 <summary>另外 9 个</summary>
@@ -49,11 +49,11 @@
 
 ## 被采纳的报告与审查
 
-- **pydantic-ai** [#12367](https://github.com/pydantic/pydantic-ai/issues/12367)（`p:2-high`）：压缩的混合基数减法缺陷，官方 bot 在 2 小时内按这份诊断生成了修复 PR
-- **caveman** [#1437](https://github.com/JuliusBrussee/caveman/issues/1437) / [#1453](https://github.com/JuliusBrussee/caveman/issues/1453)：hook 键序与计费限定符的根因——维护者称比 commit message 说得更清楚
-- **pr-agent** [#4653](https://github.com/The-PR-Agent/pr-agent/issues/4653)：Action 双跑，第三方次日按此修复
-- **OpenHands** [#19278](https://github.com/OpenHands/OpenHands/issues/19278)：V0/V1 事件存储断层与静默丢弃
-- **Mika** [#165](https://github.com/wangzan101/Mika/issues/165#issuecomment-3366098517)：导入技能时「不改全文就跳过校验」的边界
+- **[pydantic-ai](https://github.com/pydantic/pydantic-ai)** [#12367](https://github.com/pydantic/pydantic-ai/issues/12367)（`p:2-high`）：压缩的混合基数减法缺陷，官方 bot 在 2 小时内按这份诊断生成了修复 PR
+- **[caveman](https://github.com/JuliusBrussee/caveman)** [#1437](https://github.com/JuliusBrussee/caveman/issues/1437) / [#1453](https://github.com/JuliusBrussee/caveman/issues/1453)：hook 键序与计费限定符的根因——维护者称比 commit message 说得更清楚
+- **[pr-agent](https://github.com/The-PR-Agent/pr-agent)** [#4653](https://github.com/The-PR-Agent/pr-agent/issues/4653)：Action 双跑，第三方次日按此修复
+- **[OpenHands](https://github.com/OpenHands/OpenHands)** [#19278](https://github.com/OpenHands/OpenHands/issues/19278)：V0/V1 事件存储断层与静默丢弃
+- **[Mika](https://github.com/wangzan101/Mika)** [#165](https://github.com/wangzan101/Mika/issues/165#issuecomment-3366098517)：导入技能时「不改全文就跳过校验」的边界
 
 ## 我挖什么
 
