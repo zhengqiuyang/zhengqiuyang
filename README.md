@@ -2,15 +2,16 @@
 
 🔴 开源贡献者 · 专注 **AI Agent 工具链**（provider 协议 / 流式状态机 / SSRF 防护 / Windows 平台）
 
-> 两个多月里向 **16 个开源仓库**提交了 **26 个 PR** 和 **16 个 issue**——其中 **11 个 commit 已合并**进 4 个仓库的主干，覆盖从 1.4万★ 的 pr-agent 到 **22.5万★ 的 opencode**。
+> 三个多月里向 **18 个开源仓库**提交了 **30+ 个 PR** 和 **20+ 个 issue**——其中 **11 个 commit 已合并**进 4 个仓库的主干，覆盖从 1.4万★ 的 pr-agent 到 **22.5万★ 的 opencode**。
 
 ## 🏆 已合并贡献
 
 | 仓库 | ★ | 贡献 | 内容 |
 |---|---|---|---|
 | **cline** | **7.1万** | [#15520](https://github.com/cline/cline/pull/15520) ✅ | 修复 VS Code 扩展中断任务的 reasoning 文本泄漏 + 自动续跑路径的同类重复 |
-| **Home Assistant** | **8万+** | [#189635](https://github.com/home-assistant/core/pull/189635) ✅ [#189876](https://github.com/home-assistant/core/pull/189876) ✅ | tplink_omada 集成 StopIteration 崩溃修复；imou 设备发现错误指纹清理 |
+| **Home Assistant** | **8万+** | [#189635](https://github.com/home-assistant/core/pull/189635) ✅ [#189876](https://github.com/home-assistant/core/pull/189876) ✅ [#190963](https://github.com/home-assistant/core/pull/190963) | 已合并：tplink_omada PSK 脱敏、imou 指纹清理；**审查中**：端口消失导致的 sensor KeyError 修复（core MEMBER 审查中） |
 | **pr-agent** | 1.4万 | [#4651](https://github.com/The-PR-Agent/pr-agent/pull/4651) ✅ [#4761](https://github.com/The-PR-Agent/pr-agent/pull/4761) ✅ | GitLab diff 文件头误计入变更行数；压缩路径把 +++ 文件头误判为新增导致删除 hunk 永不剔除（官方 bot 审查全绿） |
+| **geoai** | 3.5k | [#949](https://github.com/opengeos/geoai/pull/949) ✅ | SAM prompted 模式忽略 device/model 参数——作者（田纳西大学 Qiusheng Wu 教授）批准合并 |
 | **Mika** | — | 4 commits | 跨时区计划触发修复；计划触发预览；SSE 协议终态收尾；回放审批分叉——**随 v0.1.34/35/36 三个版本发布** |
 
 ## 🚀 审查中
@@ -21,6 +22,7 @@
 | **OpenHands** | 9.3万 | [#19281](https://github.com/OpenHands/OpenHands/pull/19281) · [#19328](https://github.com/OpenHands/OpenHands/pull/19328) | CI 全绿，等 review |
 | **CopilotKit** | 3万+ | [#8222](https://github.com/CopilotKit/CopilotKit/pull/8222) | HITL 交互按 toolCallId 精确路由（CodeRabbit 审查通过） |
 | **pr-agent** | 1.4万 | [#4652](https://github.com/The-PR-Agent/pr-agent/pull/4652) | describe 标题剥除损坏 + 四反引号 fence 回归，等详审 |
+| **cindy** | 1.05万 | [#8569](https://github.com/makecindy/cindy/pull/8569) | DeepSeek 自定义供应商出站 400 修复，格式门已过等续审 |
 | **TestSprite** | 5千 | [#723](https://github.com/TestSprite/testsprite-cli/pull/723) · [#724](https://github.com/TestSprite/testsprite-cli/pull/724) | MERGEABLE，等评审窗口 |
 | **opencode** | **22.5万** | [#61462](https://github.com/anomalyco/opencode/pull/61462) · [#61463](https://github.com/anomalyco/opencode/pull/61463) · [#61464](https://github.com/anomalyco/opencode/pull/61464) | 事件重投递去重三连修，等 triage |
 | **litellm** | 6.3万 | [#50249](https://github.com/BerriAI/litellm/pull/50249) | cohere embeddings 忽略 COHERE_API_BASE（与 rerank 路径不对称）——审查意见三点已全部响应，CLA 已签 |
