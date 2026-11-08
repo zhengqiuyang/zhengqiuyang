@@ -2,7 +2,7 @@
 
 🔴 开源贡献者 · 专注 **AI Agent 工具链**（provider 协议 / 流式状态机 / SSRF 防护 / Windows 平台）
 
-> 两个多月里向 **16 个开源仓库**提交了 **26 个 PR** 和 **16 个 issue**——其中 **11 个 commit 已合并**进 4 个仓库的主干，覆盖从 1.4万★ 的 pr-agent 到 **22.5万★ 的 opencode**。
+> 两个多月里向 **17 个开源仓库**提交了 **28 个 PR** 和 **16 个 issue**——其中 **13 个 commit 已合并**进 5 个仓库的主干，覆盖从 1.4万★ 的 pr-agent 到 **22.5万★ 的 opencode**。
 
 ## 🏆 已合并贡献
 
@@ -12,6 +12,7 @@
 | **Home Assistant** | **8万+** | [#189635](https://github.com/home-assistant/core/pull/189635) ✅ [#189876](https://github.com/home-assistant/core/pull/189876) ✅ | tplink_omada 集成 StopIteration 崩溃修复；imou 设备发现错误指纹清理 |
 | **pr-agent** | 1.4万 | [#4651](https://github.com/The-PR-Agent/pr-agent/pull/4651) ✅ [#4761](https://github.com/The-PR-Agent/pr-agent/pull/4761) ✅ | GitLab diff 文件头误计入变更行数；压缩路径把 +++ 文件头误判为新增导致删除 hunk 永不剔除（官方 bot 审查全绿） |
 | **Mika** | — | 4 commits | 跨时区计划触发修复；计划触发预览；SSE 协议终态收尾；回放审批分叉——**随 v0.1.34/35/36 三个版本发布** |
+| **geoai** | 1.3万+ | [#949](https://github.com/opengeos/geoai/pull/949) ✅ [#950](https://github.com/opengeos/geoai/pull/950) ✅ | 修复 SamGeo device="cpu" 崩溃（参数未透传）；补 prithvi 缺失的 einops 依赖 |
 
 ## 🚀 审查中
 
