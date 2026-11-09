@@ -52,7 +52,7 @@
 - **[caveman](https://github.com/JuliusBrussee/caveman)** [#1437](https://github.com/JuliusBrussee/caveman/issues/1437) / [#1453](https://github.com/JuliusBrussee/caveman/issues/1453)：hook 键序与计费限定符的根因——维护者称比 commit message 说得更清楚
 - **[pr-agent](https://github.com/The-PR-Agent/pr-agent)** [#4653](https://github.com/The-PR-Agent/pr-agent/issues/4653)：Action 双跑，第三方次日按此修复
 - **[OpenHands](https://github.com/OpenHands/OpenHands)** [#19278](https://github.com/OpenHands/OpenHands/issues/19278)：V0/V1 事件存储断层与静默丢弃
-- **[Mika](https://github.com/wangzan101/Mika)** [#165](https://github.com/wangzan101/Mika/issues/165#issuecomment-3366098517)：导入技能时「不改全文就跳过校验」的边界
+- **[Mika](https://github.com/wangzan101/Mika)** [#295](https://github.com/wangzan101/Mika/issues/295)：定位 Ollama 流式挂死，关闭说明把「流式响应在协议终态后立即收尾」列为修复项之一（即我们的改动），其余静默被认定在本地模型服务端；[#165](https://github.com/wangzan101/Mika/issues/165#issuecomment-3366098517)：导入技能时「不改全文就跳过校验」的边界
 
 ## 我挖什么
 
