@@ -4,18 +4,18 @@
 
 做 AI Agent 工具链的开源贡献：provider 协议不一致、流式状态生命周期、SSRF 与 Windows 平台盲区。
 
-**21 个仓库 · 51 个 PR · 30 个 issue · 21 个已合并**
+**21 个仓库 · 51 个 PR · 30 个 issue · 22 个已合并**
 
 </div>
 
 ## 已合并
 
-13 个落在 5 个第三方仓库的主干，另有 5 个在 awesome-dsh-plugin 列表、3 个自有仓库。
+14 个落在 5 个第三方仓库的主干，另有 5 个在 awesome-dsh-plugin 列表、3 个自有仓库。
 
 | 仓库 | ★ | PR | 修了什么 |
 |---|---|---|---|
 | [cline](https://github.com/cline/cline) | 71k | [#15520](https://github.com/cline/cline/pull/15520) | 中断任务的 reasoning 文本泄漏进下一轮，以及自动续跑路径的同类重复 |
-| [Home Assistant](https://github.com/home-assistant/core) | 92k | [#189635](https://github.com/home-assistant/core/pull/189635) [#189876](https://github.com/home-assistant/core/pull/189876) [#189882](https://github.com/home-assistant/core/pull/189882) | tplink_omada 诊断的 PSK 脱敏；imou 发现里过期的 Dahua DHCP 指纹 |
+| [Home Assistant](https://github.com/home-assistant/core) | 92k | [#189635](https://github.com/home-assistant/core/pull/189635) [#189876](https://github.com/home-assistant/core/pull/189876) [#189882](https://github.com/home-assistant/core/pull/189882) [#191537](https://github.com/home-assistant/core/pull/191537) | tplink_omada 诊断的 PSK 脱敏；imou 发现里过期的 Dahua DHCP 指纹 |
 | [pr-agent](https://github.com/The-PR-Agent/pr-agent) | 16k | [#4651](https://github.com/The-PR-Agent/pr-agent/pull/4651) [#4652](https://github.com/The-PR-Agent/pr-agent/pull/4652) [#4761](https://github.com/The-PR-Agent/pr-agent/pull/4761) [#4787](https://github.com/The-PR-Agent/pr-agent/pull/4787) [#4799](https://github.com/The-PR-Agent/pr-agent/pull/4799) | GitLab diff 文件头被误计入每文件变更行数；describe 的围栏感知剥离（含四反引号与线性化性能测试）；删除 hunk 的 `+++` 文件头污染 |
 | [geoai](https://github.com/opengeos/geoai) | 3.5k | [#949](https://github.com/opengeos/geoai/pull/949) [#950](https://github.com/opengeos/geoai/pull/950) | SamGeo `device="cpu"` 崩溃（参数未透传）；prithvi 缺 einops 依赖 |
 | [GeoLibre](https://github.com/opengeos/GeoLibre) | 8.5k | [#3301](https://github.com/opengeos/GeoLibre/pull/3301) | 插件只读自身 bundle 资源的 `readPluginAsset` API；维护者在此基础上把信任根改成「扫描期记录过的 bundle」，并补了 zip 包裹与符号链接的复查 |
