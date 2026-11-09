@@ -67,6 +67,7 @@
 ## 被采纳的报告与审查
 
 - **[pydantic-ai](https://github.com/pydantic/pydantic-ai)** [#12367](https://github.com/pydantic/pydantic-ai/issues/12367)（`p:2-high`）：压缩的混合基数减法缺陷，官方 bot 在 2 小时内按这份诊断生成了修复 PR
+- **[langfuse](https://github.com/langfuse/langfuse)** [#19924](https://github.com/langfuse/langfuse/issues/19924)：evaluator 对裸 403 不暂停、Topics 却暂停——维护者一小时内以 [#19940](https://github.com/langfuse/langfuse/pull/19940) 合入修复，并在实现里补了「内容过滤不该暂停」这一层
 - **[caveman](https://github.com/JuliusBrussee/caveman)** [#1437](https://github.com/JuliusBrussee/caveman/issues/1437) / [#1453](https://github.com/JuliusBrussee/caveman/issues/1453)：hook 键序与计费限定符的根因——维护者称比 commit message 说得更清楚
 - **[pr-agent](https://github.com/The-PR-Agent/pr-agent)** [#4653](https://github.com/The-PR-Agent/pr-agent/issues/4653)：Action 双跑，第三方次日按此修复
 - **[OpenHands](https://github.com/OpenHands/OpenHands)** [#19278](https://github.com/OpenHands/OpenHands/issues/19278)：V0/V1 事件存储断层与静默丢弃
