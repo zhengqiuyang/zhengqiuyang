@@ -20,6 +20,25 @@
 | [geoai](https://github.com/opengeos/geoai) | 3.5k | [#949](https://github.com/opengeos/geoai/pull/949) [#950](https://github.com/opengeos/geoai/pull/950) | SamGeo `device="cpu"` 崩溃（参数未透传）；prithvi 缺 einops 依赖 |
 | [Mika](https://github.com/wangzan101/Mika) | 7.7k | [#222](https://github.com/wangzan101/Mika/pull/222) [#309](https://github.com/wangzan101/Mika/pull/309) [#305](https://github.com/wangzan101/Mika/pull/305) | 跨时区计划重算、SSE 协议终态收尾、回放审批分叉。3 个 commit 的 author，随 v0.1.34 / v0.1.36 发布；PR 本身被维护者重整后关闭，commit 保留署名 |
 
+## 自研工具：DSH 信任层
+
+一套围绕 DeepSeek Harness 的“确定性信任”插件：不在信任路径上调用 LLM，全部是静态判定。10 个插件分 5 个 PR 收录进 [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)（23.8k★，2026-10-17 ~ 10-20）。
+
+| 插件 | 守什么 |
+|---|---|
+| [dsh-read-guard](https://github.com/zhengqiuyang/dsh-read-guard) | 读：提示注入拦截，凭据文件按路径直接隔离 |
+| [dsh-pr-gate](https://github.com/zhengqiuyang/dsh-pr-gate) | 写：写入瞬间的作用域策略与残留扫描 |
+| [dsh-attest-chain](https://github.com/zhengqiuyang/dsh-attest-chain) | 做过什么：ed25519 签名的哈希链，commit 绑进链 |
+| [dsh-mcp-test](https://github.com/zhengqiuyang/dsh-mcp-test) | 能调什么：工具面快照，静默变更即失败 |
+| [dsh-egress-gate](https://github.com/zhengqiuyang/dsh-egress-gate) | 出网：按目的地白名单拦截 |
+| [dsh-prompt-drift](https://github.com/zhengqiuyang/dsh-prompt-drift) | 被告知什么：system prompt 段落哈希基线 |
+| [dsh-freeze](https://github.com/zhengqiuyang/dsh-freeze) | 组合锁定：profile 指纹漂移告警或失败 |
+| [dsh-janitor](https://github.com/zhengqiuyang/dsh-janitor) | 产物生命周期：扫描并给出可审阅的清理计划 |
+| [dsh-compaction-guard](https://github.com/zhengqiuyang/dsh-compaction-guard) | 压缩完整性：被压缩掉的约束是否被摘要丢掉 |
+| [dsh-trust-panel](https://github.com/zhengqiuyang/dsh-trust-panel) | 给人看的：十路状态合成一盏灯 |
+
+收录 PR：[#7227](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/7227) · [#7700](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/7700) · [#7701](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/7701) · [#7743](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/7743) · [#8133](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/8133)
+
 ## 在审
 
 | 仓库 | ★ | PR | 状态 |
