@@ -4,13 +4,13 @@
 
 做 AI Agent 工具链的开源贡献：provider 协议不一致、流式状态生命周期、SSRF 与 Windows 平台盲区。
 
-**21 个仓库 · 50 个 PR · 30 个 issue · 19 个已合并**
+**21 个仓库 · 51 个 PR · 30 个 issue · 20 个已合并**
 
 </div>
 
 ## 已合并
 
-11 个落在 5 个第三方仓库的主干，另有 5 个在 awesome-dsh-plugin 列表、3 个自有仓库。
+12 个落在 5 个第三方仓库的主干，另有 5 个在 awesome-dsh-plugin 列表、3 个自有仓库。
 
 | 仓库 | ★ | PR | 修了什么 |
 |---|---|---|---|
@@ -18,6 +18,7 @@
 | [Home Assistant](https://github.com/home-assistant/core) | 92k | [#189635](https://github.com/home-assistant/core/pull/189635) [#189876](https://github.com/home-assistant/core/pull/189876) [#189882](https://github.com/home-assistant/core/pull/189882) | tplink_omada 诊断的 PSK 脱敏；imou 发现里过期的 Dahua DHCP 指纹 |
 | [pr-agent](https://github.com/The-PR-Agent/pr-agent) | 16k | [#4651](https://github.com/The-PR-Agent/pr-agent/pull/4651) [#4652](https://github.com/The-PR-Agent/pr-agent/pull/4652) [#4761](https://github.com/The-PR-Agent/pr-agent/pull/4761) [#4787](https://github.com/The-PR-Agent/pr-agent/pull/4787) | GitLab diff 文件头被误计入每文件变更行数；describe 的围栏感知剥离（含四反引号与线性化性能测试）；删除 hunk 的 `+++` 文件头污染 |
 | [geoai](https://github.com/opengeos/geoai) | 3.5k | [#949](https://github.com/opengeos/geoai/pull/949) [#950](https://github.com/opengeos/geoai/pull/950) | SamGeo `device="cpu"` 崩溃（参数未透传）；prithvi 缺 einops 依赖 |
+| [GeoLibre](https://github.com/opengeos/GeoLibre) | 8.5k | [#3301](https://github.com/opengeos/GeoLibre/pull/3301) | 插件只读自身 bundle 资源的 `readPluginAsset` API；维护者在此基础上把信任根改成「扫描期记录过的 bundle」，并补了 zip 包裹与符号链接的复查 |
 | [Mika](https://github.com/wangzan101/Mika) | 7.7k | [#222](https://github.com/wangzan101/Mika/pull/222) [#309](https://github.com/wangzan101/Mika/pull/309) [#305](https://github.com/wangzan101/Mika/pull/305) | 跨时区计划重算、SSE 协议终态收尾、回放审批分叉。3 个 commit 的 author，随 v0.1.34 / v0.1.36 发布；PR 本身被维护者重整后关闭，commit 保留署名 |
 
 ## 自研工具：DSH 信任层
@@ -48,15 +49,13 @@
 | [opencode](https://github.com/anomalyco/opencode) | 225k | [#61462](https://github.com/anomalyco/opencode/pull/61462) [#61463](https://github.com/anomalyco/opencode/pull/61463) [#61464](https://github.com/anomalyco/opencode/pull/61464) | 事件重复投递的幂等三连修 |
 | [litellm](https://github.com/BerriAI/litellm) | 63k | [#50249](https://github.com/BerriAI/litellm/pull/50249) | cohere embeddings 忽略 `COHERE_API_BASE`；审查意见已响应，CLA 已签 |
 | [CopilotKit](https://github.com/CopilotKit/CopilotKit) | 39k | [#8222](https://github.com/CopilotKit/CopilotKit/pull/8222) [#8195](https://github.com/CopilotKit/CopilotKit/pull/8195) | HITL 应答按 tool call id 精确路由 |
-| [GeoLibre](https://github.com/opengeos/GeoLibre) | 8.5k | [#3301](https://github.com/opengeos/GeoLibre/pull/3301) | 插件读取自身 bundle 内资源（#2782 item 1）；**APPROVED，CI 全绿** |
 
 <details>
-<summary>另外 9 个</summary>
+<summary>另外 7 个</summary>
 
 | PR | 状态 |
 |---|---|
 | Home Assistant [#190963](https://github.com/home-assistant/core/pull/190963) | 端口/设备消失导致的 sensor KeyError，等 codeowner |
-| Home Assistant [#189882](https://github.com/home-assistant/core/pull/189882) | gateway 端口传感器的 StopIteration，等 review |
 | reticle [#2147](https://github.com/reticlehq/reticle/pull/2147) | FOREIGN 探针重试 + fill 拼写映射，等重审 |
 | cindy [#8569](https://github.com/makecindy/cindy/pull/8569) | DeepSeek 自定义供应商出站 400，已 APPROVED |
 | TestSprite [#723](https://github.com/TestSprite/testsprite-cli/pull/723) [#724](https://github.com/TestSprite/testsprite-cli/pull/724) | 报告标志校验、同名测试折叠 |
