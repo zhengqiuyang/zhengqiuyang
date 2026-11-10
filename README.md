@@ -4,13 +4,13 @@
 
 做 AI Agent 工具链的开源贡献：provider 协议不一致、流式状态生命周期、SSRF 与 Windows 平台盲区。
 
-**21 个仓库 · 51 个 PR · 30 个 issue · 24 个已合并**
+**21 个仓库 · 51 个 PR · 30 个 issue · 25 个已合并**
 
 </div>
 
 ## 已合并
 
-16 个落在 6 个第三方仓库的主干，另有 5 个在 awesome-dsh-plugin 列表、3 个自有仓库。
+17 个落在 6 个第三方仓库的主干，另有 5 个在 awesome-dsh-plugin 列表、3 个自有仓库。
 
 | 仓库 | ★ | PR | 修了什么 |
 |---|---|---|---|
@@ -18,7 +18,7 @@
 | [Home Assistant](https://github.com/home-assistant/core) | 92k | [#189635](https://github.com/home-assistant/core/pull/189635) [#189876](https://github.com/home-assistant/core/pull/189876) [#189882](https://github.com/home-assistant/core/pull/189882) [#191537](https://github.com/home-assistant/core/pull/191537) [#190963](https://github.com/home-assistant/core/pull/190963) | tplink_omada 诊断的 PSK 脱敏；imou 发现里过期的 Dahua DHCP 指纹 |
 | [pr-agent](https://github.com/The-PR-Agent/pr-agent) | 16k | [#4651](https://github.com/The-PR-Agent/pr-agent/pull/4651) [#4652](https://github.com/The-PR-Agent/pr-agent/pull/4652) [#4761](https://github.com/The-PR-Agent/pr-agent/pull/4761) [#4787](https://github.com/The-PR-Agent/pr-agent/pull/4787) [#4799](https://github.com/The-PR-Agent/pr-agent/pull/4799) | GitLab diff 文件头被误计入每文件变更行数；describe 的围栏感知剥离（含四反引号与线性化性能测试）；删除 hunk 的 `+++` 文件头污染 |
 | [geoai](https://github.com/opengeos/geoai) | 3.5k | [#949](https://github.com/opengeos/geoai/pull/949) [#950](https://github.com/opengeos/geoai/pull/950) | SamGeo `device="cpu"` 崩溃（参数未透传）；prithvi 缺 einops 依赖 |
-| [TestSprite](https://github.com/TestSprite/testsprite-cli) | 5.2k | [#724](https://github.com/TestSprite/testsprite-cli/pull/724) | JUnit 报告里同名测试被合并成一个用例；按 test/run id 派生唯一标识后再生成 XML |
+| [TestSprite](https://github.com/TestSprite/testsprite-cli) | 5.2k | [#723](https://github.com/TestSprite/testsprite-cli/pull/723) [#724](https://github.com/TestSprite/testsprite-cli/pull/724) | JUnit 报告里同名测试被合并成一个用例；按 test/run id 派生唯一标识后再生成 XML |
 | [GeoLibre](https://github.com/opengeos/GeoLibre) | 8.5k | [#3301](https://github.com/opengeos/GeoLibre/pull/3301) | 插件只读自身 bundle 资源的 `readPluginAsset` API；维护者在此基础上把信任根改成「扫描期记录过的 bundle」，并补了 zip 包裹与符号链接的复查 |
 | [Mika](https://github.com/wangzan101/Mika) | 7.7k | [#222](https://github.com/wangzan101/Mika/pull/222) [#309](https://github.com/wangzan101/Mika/pull/309) [#305](https://github.com/wangzan101/Mika/pull/305) | 跨时区计划重算、SSE 协议终态收尾、回放审批分叉。3 个 commit 的 author，随 v0.1.34 / v0.1.36 发布；PR 本身被维护者重整后关闭，commit 保留署名 |
 
@@ -59,7 +59,6 @@
 | Home Assistant [#190963](https://github.com/home-assistant/core/pull/190963) | 端口/设备消失导致的 sensor KeyError，等 codeowner |
 | reticle [#2147](https://github.com/reticlehq/reticle/pull/2147) | FOREIGN 探针重试 + fill 拼写映射，等重审 |
 | cindy [#8569](https://github.com/makecindy/cindy/pull/8569) | DeepSeek 自定义供应商出站 400，已 APPROVED |
-| TestSprite [#723](https://github.com/TestSprite/testsprite-cli/pull/723) [#724](https://github.com/TestSprite/testsprite-cli/pull/724) | 报告标志校验、同名测试折叠 |
 | open-design [#9276](https://github.com/nexu-io/open-design/pull/9276) | clipper 资源内联顺序 |
 
 </details>
