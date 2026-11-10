@@ -4,23 +4,23 @@
 
 做 AI Agent 工具链的开源贡献：provider 协议不一致、流式状态生命周期、SSRF 与 Windows 平台盲区。
 
-**21 个仓库 · 51 个 PR · 30 个 issue · 25 个已合并**
+**23 个仓库 · 53 个 PR · 32 个 issue · 25 个已合并**
 
 </div>
 
 ## 已合并
 
-17 个落在 6 个第三方仓库的主干，另有 5 个在 awesome-dsh-plugin 列表、3 个自有仓库。
+17 个落在 7 个第三方仓库的主干，另有 5 个在 awesome-dsh-plugin 列表、3 个自有仓库。
 
 | 仓库 | ★ | PR | 修了什么 |
 |---|---|---|---|
 | [cline](https://github.com/cline/cline) | 71k | [#15520](https://github.com/cline/cline/pull/15520) | 中断任务的 reasoning 文本泄漏进下一轮，以及自动续跑路径的同类重复 |
-| [Home Assistant](https://github.com/home-assistant/core) | 92k | [#189635](https://github.com/home-assistant/core/pull/189635) [#189876](https://github.com/home-assistant/core/pull/189876) [#189882](https://github.com/home-assistant/core/pull/189882) [#191537](https://github.com/home-assistant/core/pull/191537) [#190963](https://github.com/home-assistant/core/pull/190963) | tplink_omada 诊断的 PSK 脱敏；imou 发现里过期的 Dahua DHCP 指纹 |
 | [pr-agent](https://github.com/The-PR-Agent/pr-agent) | 16k | [#4651](https://github.com/The-PR-Agent/pr-agent/pull/4651) [#4652](https://github.com/The-PR-Agent/pr-agent/pull/4652) [#4761](https://github.com/The-PR-Agent/pr-agent/pull/4761) [#4787](https://github.com/The-PR-Agent/pr-agent/pull/4787) [#4799](https://github.com/The-PR-Agent/pr-agent/pull/4799) | GitLab diff 文件头被误计入每文件变更行数；describe 的围栏感知剥离（含四反引号与线性化性能测试）；删除 hunk 的 `+++` 文件头污染 |
 | [geoai](https://github.com/opengeos/geoai) | 3.5k | [#949](https://github.com/opengeos/geoai/pull/949) [#950](https://github.com/opengeos/geoai/pull/950) | SamGeo `device="cpu"` 崩溃（参数未透传）；prithvi 缺 einops 依赖 |
 | [TestSprite](https://github.com/TestSprite/testsprite-cli) | 5.2k | [#723](https://github.com/TestSprite/testsprite-cli/pull/723) [#724](https://github.com/TestSprite/testsprite-cli/pull/724) | JUnit 报告里同名测试被合并成一个用例；按 test/run id 派生唯一标识后再生成 XML |
 | [GeoLibre](https://github.com/opengeos/GeoLibre) | 8.5k | [#3301](https://github.com/opengeos/GeoLibre/pull/3301) | 插件只读自身 bundle 资源的 `readPluginAsset` API；维护者在此基础上把信任根改成「扫描期记录过的 bundle」，并补了 zip 包裹与符号链接的复查 |
 | [Mika](https://github.com/wangzan101/Mika) | 7.7k | [#222](https://github.com/wangzan101/Mika/pull/222) [#309](https://github.com/wangzan101/Mika/pull/309) [#305](https://github.com/wangzan101/Mika/pull/305) | 跨时区计划重算、SSE 协议终态收尾、回放审批分叉。3 个 commit 的 author，随 v0.1.34 / v0.1.36 发布；PR 本身被维护者重整后关闭，commit 保留署名 |
+- **[ComposioHQ/composio](https://github.com/ComposioHQ/composio)** [#5249](https://github.com/ComposioHQ/composio/issues/5249)：Windows 注册表代理使 `no_inherited_proxy` 夹具失效——我们定位根因后让位，首席维护者 [#5290](https://github.com/ComposioHQ/composio/pull/5290) 接手实现，已 APPROVED 待合入 `next`
 
 ## 自研工具：DSH 信任层
 
@@ -28,6 +28,7 @@
 
 | 插件 | 守什么 |
 |---|---|
+| Home Assistant [#191601](https://github.com/home-assistant/core/pull/191601) | WLED zeroconf：已忽略的 entry 仍抛 KeyError |
 | [dsh-read-guard](https://github.com/zhengqiuyang/dsh-read-guard) | 读：提示注入拦截，凭据文件按路径直接隔离 |
 | [dsh-pr-gate](https://github.com/zhengqiuyang/dsh-pr-gate) | 写：写入瞬间的作用域策略与残留扫描 |
 | [dsh-attest-chain](https://github.com/zhengqiuyang/dsh-attest-chain) | 做过什么：ed25519 签名的哈希链，commit 绑进链 |
@@ -50,9 +51,10 @@
 | [opencode](https://github.com/anomalyco/opencode) | 225k | [#61462](https://github.com/anomalyco/opencode/pull/61462) [#61463](https://github.com/anomalyco/opencode/pull/61463) [#61464](https://github.com/anomalyco/opencode/pull/61464) | 事件重复投递的幂等三连修 |
 | [litellm](https://github.com/BerriAI/litellm) | 63k | [#50249](https://github.com/BerriAI/litellm/pull/50249) | cohere embeddings 忽略 `COHERE_API_BASE`；审查意见已响应，CLA 已签 |
 | [CopilotKit](https://github.com/CopilotKit/CopilotKit) | 39k | [#8222](https://github.com/CopilotKit/CopilotKit/pull/8222) [#8195](https://github.com/CopilotKit/CopilotKit/pull/8195) | HITL 应答按 tool call id 精确路由 |
+| [MuJoCo](https://github.com/google-deepmind/mujoco) | 17k | [#3803](https://github.com/google-deepmind/mujoco/pull/3803) | MJX 忽略 `mjOption.disableactuator`：按组禁用的执行器照常出力，已复现并修复 |
 
 <details>
-<summary>另外 7 个</summary>
+<summary>另外 4 个</summary>
 
 | PR | 状态 |
 |---|---|
