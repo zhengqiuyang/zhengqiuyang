@@ -28,7 +28,6 @@
 
 | 插件 | 守什么 |
 |---|---|
-| Home Assistant [#191601](https://github.com/home-assistant/core/pull/191601) | WLED zeroconf：已忽略的 entry 仍抛 KeyError |
 | [dsh-read-guard](https://github.com/zhengqiuyang/dsh-read-guard) | 读：提示注入拦截，凭据文件按路径直接隔离 |
 | [dsh-pr-gate](https://github.com/zhengqiuyang/dsh-pr-gate) | 写：写入瞬间的作用域策略与残留扫描 |
 | [dsh-attest-chain](https://github.com/zhengqiuyang/dsh-attest-chain) | 做过什么：ed25519 签名的哈希链，commit 绑进链 |
@@ -44,26 +43,18 @@
 
 ## 在审
 
-| 仓库 | ★ | PR | 状态 |
+13 条 PR 分布在 8 个仓库，全部 `mergeable`，没有冲突。
+
+| 仓库 | 星 | PR | 状态 |
 |---|---|---|---|
-| [open-design](https://github.com/nexu-io/open-design) | 107k | [#9275](https://github.com/nexu-io/open-design/pull/9275) | APPROVED，等 QA |
-| [OpenHands](https://github.com/OpenHands/OpenHands) | 93k | [#19281](https://github.com/OpenHands/OpenHands/pull/19281) [#19328](https://github.com/OpenHands/OpenHands/pull/19328) | CI 全绿，等 review |
-| [opencode](https://github.com/anomalyco/opencode) | 225k | [#61462](https://github.com/anomalyco/opencode/pull/61462) [#61463](https://github.com/anomalyco/opencode/pull/61463) [#61464](https://github.com/anomalyco/opencode/pull/61464) | 事件重复投递的幂等三连修 |
-| [litellm](https://github.com/BerriAI/litellm) | 63k | [#50249](https://github.com/BerriAI/litellm/pull/50249) | cohere embeddings 忽略 `COHERE_API_BASE`；审查意见已响应，CLA 已签 |
-| [CopilotKit](https://github.com/CopilotKit/CopilotKit) | 39k | [#8222](https://github.com/CopilotKit/CopilotKit/pull/8222) [#8195](https://github.com/CopilotKit/CopilotKit/pull/8195) | HITL 应答按 tool call id 精确路由 |
-| [MuJoCo](https://github.com/google-deepmind/mujoco) | 17k | [#3803](https://github.com/google-deepmind/mujoco/pull/3803) | MJX 忽略 `mjOption.disableactuator`：按组禁用的执行器照常出力，已复现并修复 |
-
-<details>
-<summary>另外 4 个</summary>
-
-| PR | 状态 |
-|---|---|
-| Home Assistant [#190963](https://github.com/home-assistant/core/pull/190963) | 端口/设备消失导致的 sensor KeyError，等 codeowner |
-| reticle [#2147](https://github.com/reticlehq/reticle/pull/2147) | FOREIGN 探针重试 + fill 拼写映射，等重审 |
-| cindy [#8569](https://github.com/makecindy/cindy/pull/8569) | DeepSeek 自定义供应商出站 400，已 APPROVED |
-| open-design [#9276](https://github.com/nexu-io/open-design/pull/9276) | clipper 资源内联顺序 |
-
-</details>
+| [open-design](https://github.com/nexu-io/open-design) | 107k | [#9275](https://github.com/nexu-io/open-design/pull/9275) [#9276](https://github.com/nexu-io/open-design/pull/9276) | #9275 APPROVED 等 QA；#9276 待评审 |
+| [opencode](https://github.com/anomalyco/opencode) | 225k | [#61462](https://github.com/anomalyco/opencode/pull/61462) [#61463](https://github.com/anomalyco/opencode/pull/61463) [#61464](https://github.com/anomalyco/opencode/pull/61464) | 等 CI 批准（首次贡献者需逐次审批） |
+| [OpenHands](https://github.com/OpenHands/OpenHands) | 93k | [#19281](https://github.com/OpenHands/OpenHands/pull/19281) [#19328](https://github.com/OpenHands/OpenHands/pull/19328) | #19281 clean + bot 批准；#19328 待评审 |
+| [CopilotKit](https://github.com/CopilotKit/CopilotKit) | 39k | [#8222](https://github.com/CopilotKit/CopilotKit/pull/8222) [#8195](https://github.com/CopilotKit/CopilotKit/pull/8195) | 待评审 |
+| [litellm](https://github.com/BerriAI/litellm) | 63k | [#50249](https://github.com/BerriAI/litellm/pull/50249) | 已按评审意见修复，等重审 |
+| [Home Assistant](https://github.com/home-assistant/core) | 92k | [#191601](https://github.com/home-assistant/core/pull/191601) | WLED zeroconf：已忽略的 entry 仍抛 KeyError，待 code owner |
+| [MuJoCo](https://github.com/google-deepmind/mujoco) | 17k | [#3803](https://github.com/google-deepmind/mujoco/pull/3803) | MJX 忽略 `mjOption.disableactuator`，新提待分诊 |
+| [cindy](https://github.com/makecindy/cindy) | 9.7k | [#8569](https://github.com/makecindy/cindy/pull/8569) | APPROVED + 全绿，待 CodeOwner 签字 |
 
 ## 被采纳的报告与审查
 
