@@ -4,13 +4,13 @@
 
 做 AI Agent 工具链的开源贡献：provider 协议不一致、流式状态生命周期、SSRF 与 Windows 平台盲区。
 
-**23 个仓库 · 53 个 PR · 32 个 issue · 25 个已合并**
+**23 个仓库 · 53 个 PR · 32 个 issue · 26 个已合并**
 
 </div>
 
 ## 已合并
 
-17 个落在 7 个第三方仓库的主干，另有 5 个在 awesome-dsh-plugin 列表、3 个自有仓库。
+18 个落在 8 个第三方仓库的主干，另有 5 个在 awesome-dsh-plugin 列表、3 个自有仓库。
 
 | 仓库 | ★ | PR | 修了什么 |
 |---|---|---|---|
@@ -20,7 +20,7 @@
 | [TestSprite](https://github.com/TestSprite/testsprite-cli) | 5.2k | [#723](https://github.com/TestSprite/testsprite-cli/pull/723) [#724](https://github.com/TestSprite/testsprite-cli/pull/724) | JUnit 报告里同名测试被合并成一个用例；按 test/run id 派生唯一标识后再生成 XML |
 | [GeoLibre](https://github.com/opengeos/GeoLibre) | 8.5k | [#3301](https://github.com/opengeos/GeoLibre/pull/3301) | 插件只读自身 bundle 资源的 `readPluginAsset` API；维护者在此基础上把信任根改成「扫描期记录过的 bundle」，并补了 zip 包裹与符号链接的复查 |
 | [Mika](https://github.com/wangzan101/Mika) | 7.7k | [#222](https://github.com/wangzan101/Mika/pull/222) [#309](https://github.com/wangzan101/Mika/pull/309) [#305](https://github.com/wangzan101/Mika/pull/305) | 跨时区计划重算、SSE 协议终态收尾、回放审批分叉。3 个 commit 的 author，随 v0.1.34 / v0.1.36 发布；PR 本身被维护者重整后关闭，commit 保留署名 |
-- **[ComposioHQ/composio](https://github.com/ComposioHQ/composio)** [#5249](https://github.com/ComposioHQ/composio/issues/5249)：Windows 注册表代理使 `no_inherited_proxy` 夹具失效——我们定位根因后让位，首席维护者 [#5290](https://github.com/ComposioHQ/composio/pull/5290) 接手实现，已 APPROVED 待合入 `next`
+| [reticle](https://github.com/reticlehq/reticle) | 1.3k | [#2147](https://github.com/reticlehq/reticle/pull/2147) | 重启后 FOREIGN 误判重试 + fill/type 拼写映射，两处 CLI 行为修复 |
 
 ## 自研工具：DSH 信任层
 
@@ -73,6 +73,7 @@
 - **[pr-agent](https://github.com/The-PR-Agent/pr-agent)** [#4653](https://github.com/The-PR-Agent/pr-agent/issues/4653)：Action 双跑，第三方次日按此修复
 - **[OpenHands](https://github.com/OpenHands/OpenHands)** [#19278](https://github.com/OpenHands/OpenHands/issues/19278)：V0/V1 事件存储断层与静默丢弃
 - **[Mika](https://github.com/wangzan101/Mika)** [#295](https://github.com/wangzan101/Mika/issues/295)：定位 Ollama 流式挂死，关闭说明把「流式响应在协议终态后立即收尾」列为修复项之一（即我们的改动），其余静默被认定在本地模型服务端；[#165](https://github.com/wangzan101/Mika/issues/165#issuecomment-3366098517)：导入技能时「不改全文就跳过校验」的边界
+- **[ComposioHQ/composio](https://github.com/ComposioHQ/composio)** [#5249](https://github.com/ComposioHQ/composio/issues/5249)：Windows 注册表代理使 `no_inherited_proxy` 夹具失效——我们定位根因并让位，首席维护者 [#5290](https://github.com/ComposioHQ/composio/pull/5290) 实现，**已合并**（2026-11-11）
 
 ## 我挖什么
 
