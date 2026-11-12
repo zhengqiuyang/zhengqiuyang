@@ -14,6 +14,7 @@
 
 | 仓库 | ★ | PR | 修了什么 |
 |---|---|---|---|
+| [Home Assistant](https://github.com/home-assistant/core) | 92k | [#189635](https://github.com/home-assistant/core/pull/189635) [#189876](https://github.com/home-assistant/core/pull/189876) [#189882](https://github.com/home-assistant/core/pull/189882) [#190963](https://github.com/home-assistant/core/pull/190963) [#191537](https://github.com/home-assistant/core/pull/191537) | tplink_omada 三处（诊断 PSK 脱敏、网关端口二进制传感器 StopIteration、设备与端口传感器 KeyError）；imou 误把 Dahua OUI 当自家设备；WeatherFlow Cloud 站点消失后实体卡死 |
 | [cline](https://github.com/cline/cline) | 71k | [#15520](https://github.com/cline/cline/pull/15520) | 中断任务的 reasoning 文本泄漏进下一轮，以及自动续跑路径的同类重复 |
 | [pr-agent](https://github.com/The-PR-Agent/pr-agent) | 16k | [#4651](https://github.com/The-PR-Agent/pr-agent/pull/4651) [#4652](https://github.com/The-PR-Agent/pr-agent/pull/4652) [#4761](https://github.com/The-PR-Agent/pr-agent/pull/4761) [#4787](https://github.com/The-PR-Agent/pr-agent/pull/4787) [#4799](https://github.com/The-PR-Agent/pr-agent/pull/4799) | GitLab diff 文件头被误计入每文件变更行数；describe 的围栏感知剥离（含四反引号与线性化性能测试）；删除 hunk 的 `+++` 文件头污染 |
 | [geoai](https://github.com/opengeos/geoai) | 3.5k | [#949](https://github.com/opengeos/geoai/pull/949) [#950](https://github.com/opengeos/geoai/pull/950) | SamGeo `device="cpu"` 崩溃（参数未透传）；prithvi 缺 einops 依赖 |
@@ -43,7 +44,7 @@
 
 ## 在审
 
-13 条 PR 分布在 8 个仓库，全部 `mergeable`，没有冲突。
+14 条 PR 分布在 8 个仓库，全部 `mergeable`，没有冲突。
 
 | 仓库 | 星 | PR | 状态 |
 |---|---|---|---|
@@ -52,9 +53,9 @@
 | [OpenHands](https://github.com/OpenHands/OpenHands) | 93k | [#19281](https://github.com/OpenHands/OpenHands/pull/19281) [#19328](https://github.com/OpenHands/OpenHands/pull/19328) | #19281 clean + bot 批准；#19328 待评审 |
 | [CopilotKit](https://github.com/CopilotKit/CopilotKit) | 39k | [#8222](https://github.com/CopilotKit/CopilotKit/pull/8222) [#8195](https://github.com/CopilotKit/CopilotKit/pull/8195) | 待评审 |
 | [litellm](https://github.com/BerriAI/litellm) | 63k | [#50249](https://github.com/BerriAI/litellm/pull/50249) | 已按评审意见修复，等重审 |
-| [Home Assistant](https://github.com/home-assistant/core) | 92k | [#191601](https://github.com/home-assistant/core/pull/191601) | WLED zeroconf：已忽略的 entry 仍抛 KeyError，待 code owner |
-| [MuJoCo](https://github.com/google-deepmind/mujoco) | 17k | [#3803](https://github.com/google-deepmind/mujoco/pull/3803) | MJX 忽略 `mjOption.disableactuator`，新提待分诊 |
-| [cindy](https://github.com/makecindy/cindy) | 9.7k | [#8569](https://github.com/makecindy/cindy/pull/8569) | APPROVED + 全绿，待 CodeOwner 签字 |
+| [Home Assistant](https://github.com/home-assistant/core) | 92k | [#191601](https://github.com/home-assistant/core/pull/191601) | WLED zeroconf：已忽略的 entry 仍抛 KeyError；已 APPROVED，等 WLED code owner |
+| [MuJoCo](https://github.com/google-deepmind/mujoco) | 17k | [#3803](https://github.com/google-deepmind/mujoco/pull/3803) [#3818](https://github.com/google-deepmind/mujoco/pull/3818) | MJX 忽略 `mjOption.disableactuator`；`rollout` 只接受 list 不接受 sequence，新提待分诊 |
+| [cindy](https://github.com/makecindy/cindy) | 9.7k | [#8569](https://github.com/makecindy/cindy/pull/8569) | APPROVED；维护者已同步 main、CI 全绿，等 CodeOwner 对最新 head 重批 |
 
 ## 被采纳的报告与审查
 
