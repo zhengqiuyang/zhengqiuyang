@@ -4,7 +4,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:1e1b4b,50:7c3aed,100:06b6d4&section=header&text=zhengqiuyang&fontSize=46&fontColor=ffffff&animation=twinkling" width="100%" alt="header" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1500&center=true&vCenter=true&width=760&height=50&color=8B5CF6&lines=gloss;harness-visualizer;lexiflow;git-dojo;shuorenhua;yearfilm;interview-mate;PixelTrace;Be+water,+my+friend." alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1800&center=true&vCenter=true&width=760&height=50&color=8B5CF6&lines=gloss+%C2%B7+harness-visualizer+%C2%B7+lexiflow;git-dojo+%C2%B7+shuorenhua+%C2%B7+yearfilm;interview-mate+%C2%B7+PixelTrace;Be+water,+my+friend." alt="typing" />
 </p>
 
 <p align="center">
