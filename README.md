@@ -8,7 +8,8 @@
 </p>
 
 <p align="center">
-  <strong>"Empty your mind, be formless, shapeless, like water. Be water, my friend." — Bruce Lee</strong>
+  <strong><i>"Empty your mind, be formless, shapeless, like water."</i></strong><br/>
+  <sub><strong>Be water, my friend.</strong> — <i>Bruce Lee</i></sub>
 </p>
 
 <p align="center">

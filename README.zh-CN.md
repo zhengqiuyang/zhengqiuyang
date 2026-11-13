@@ -8,7 +8,8 @@
 </p>
 
 <p align="center">
-  <strong>「Empty your mind, be formless, shapeless, like water. Be water, my friend.」—— 李小龙</strong>
+  <strong><i>「Empty your mind, be formless, shapeless, like water.」</i></strong><br/>
+  <sub><strong>Be water, my friend.</strong> —— <i>李小龙</i></sub>
 </p>
 
 <p align="center">
