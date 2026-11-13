@@ -4,11 +4,6 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:1e1b4b,50:7c3aed,100:06b6d4&section=header&text=zhengqiuyang&fontSize=46&fontColor=ffffff&animation=twinkling" width="100%" alt="header" />
 
 <p align="center">
-  <a href="./README.md"><img src="https://img.shields.io/badge/lang-English-7C3AED?style=flat-square" alt="English" /></a>
-  <a href="./README.zh-CN.md"><img src="https://img.shields.io/badge/lang-%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-06B6D4?style=flat-square" alt="简体中文" /></a>
-</p>
-
-<p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&center=true&vCenter=true&width=760&height=50&color=8B5CF6&lines=agent+tooling+%C2%B7+mcp+security+%C2%B7+local-first;50+repos:+agents,+testing,+x-ray+dev+tools;home-assistant+%C2%B7+cline+%C2%B7+pr-agent+%C2%B7+opencode;bug+hunter+%C2%B7+parser+surgeon+%C2%B7+fix+shipper" alt="typing" />
 </p>
 
@@ -21,6 +16,11 @@
   <img src="https://img.shields.io/badge/repos_built-50-7C3AED?style=flat-square&logo=github&logoColor=white" alt="repos" />
   <img src="https://img.shields.io/badge/awesome_dsh_plugin-10_plugins_%C2%B7_24.5k%E2%98%85-22C55E?style=flat-square" alt="awesome" />
   <img src="https://img.shields.io/badge/merged_into-210k%2B%E2%98%85_of_OSS-06B6D4?style=flat-square" alt="reach" />
+</p>
+
+<p align="center">
+  <a href="./README.md"><img src="https://img.shields.io/badge/lang-English-7C3AED?style=flat-square" alt="English" /></a>
+  <a href="./README.zh-CN.md"><img src="https://img.shields.io/badge/lang-%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-06B6D4?style=flat-square" alt="简体中文" /></a>
 </p>
 
 > 🧭 building deterministic agent tooling · fixing real bugs in 210k+★ of open source
