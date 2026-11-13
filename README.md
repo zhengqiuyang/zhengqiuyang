@@ -18,15 +18,12 @@
   <img src="https://img.shields.io/badge/merged_into-210k%2B%E2%98%85_of_OSS-06B6D4?style=flat-square" alt="reach" />
 </p>
 
-<p align="center">
-  <a href="#english"><strong>English</strong></a> · <a href="#zh"><strong>简体中文</strong></a>
-</p>
-
 > 🧭 building deterministic agent tooling · fixing real bugs in 210k+★ of open source
 
 ---
 
-<a id="english"></a>
+<details open>
+<summary>🌐 <strong>English</strong> — click to expand / collapse</summary>
 
 ### 🧰 Projects
 
@@ -74,9 +71,12 @@
 
 <sub>every one of the 19 merged PRs is linked in the table above — click any number to verify</sub>
 
+</details>
+
 ---
 
-<a id="zh"></a>
+<details>
+<summary>🌐 <strong>简体中文</strong> — 点击展开 / 收起</summary>
 
 ### 🧰 项目
 
@@ -123,6 +123,8 @@
 | [reticlehq/reticle](https://github.com/reticlehq/reticle) | ![](https://img.shields.io/github/stars/reticlehq/reticle?style=flat-square&label=%E2%98%85) | [#2147](https://github.com/reticlehq/reticle/pull/2147) | FOREIGN 探测失败重试一次;fill 拼写映射到正确类型 |
 
 <sub>19 个合并 PR 全部带链接——点任意编号即可核验</sub>
+
+</details>
 
 ---
 
