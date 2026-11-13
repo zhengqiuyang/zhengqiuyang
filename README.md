@@ -4,7 +4,19 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:1e1b4b,50:7c3aed,100:06b6d4&section=header&text=zhengqiuyang&fontSize=46&fontColor=ffffff&animation=twinkling" width="100%" alt="header" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&center=true&vCenter=true&width=760&height=50&color=8B5CF6&lines=deterministic+agent+tooling+%C2%B7+zero-LLM+trust+path;50+repos:+agents+%C2%B7+testing+%C2%B7+x-ray+tools+%C2%B7+apps;fixes+merged+into+home-assistant+%C2%B7+cline+%C2%B7+pr-agent;local-first+%C2%B7+zero+deps+%C2%B7+no-upload+by+default" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1500&center=true&vCenter=true&width=760&height=45&color=8B5CF6&lines=gloss;harness-visualizer" alt="typing" />
+</p>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1500&center=true&vCenter=true&width=760&height=45&color=06B6D4&lines=lexiflow;git-dojo" alt="typing" />
+</p>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1500&center=true&vCenter=true&width=760&height=45&color=F59E0B&lines=shuorenhua;yearfilm" alt="typing" />
+</p>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1500&center=true&vCenter=true&width=760&height=45&color=10B981&lines=interview-mate;PixelTrace" alt="typing" />
+</p>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1500&center=true&vCenter=true&width=760&height=45&color=EC4899&lines=Be+water,+my+friend." alt="typing" />
 </p>
 
 <p align="center">
