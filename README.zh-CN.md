@@ -127,14 +127,6 @@
 
 <p align="center"><sub>核心是 Python · TypeScript · JavaScript——确定性 CLI 与 agent 护栏、React 前端、手写 numpy autograd 引擎;一切本地优先,默认不上传</sub></p>
 
-### 🎨 像素特效
-
-<p align="center">
-  <img src="assets/pixelfx-montage.gif" alt="pixel fx montage" width="700" />
-</p>
-
-<p align="center"><sub>来自 <a href="https://github.com/patch-gg/pixelfx">patch-gg/pixelfx</a> 的 244 个像素特效——我的摸鱼背景板</sub></p>
-
 ---
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:1e1b4b,50:7c3aed,100:06b6d4&section=footer" width="100%" alt="footer" />

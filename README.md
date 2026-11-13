@@ -127,14 +127,6 @@
 
 <p align="center"><sub>Python · TypeScript · JavaScript at the core — deterministic CLIs & agent guard-rails, React front-ends, a hand-rolled numpy autograd engine; everything local-first, zero upload by default</sub></p>
 
-### 🎨 Pixel fx
-
-<p align="center">
-  <img src="assets/pixelfx-montage.gif" alt="pixel fx montage" width="700" />
-</p>
-
-<p align="center"><sub>244 pixel-art effects from <a href="https://github.com/patch-gg/pixelfx">patch-gg/pixelfx</a> — the tab I keep open for motivation</sub></p>
-
 ---
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:1e1b4b,50:7c3aed,100:06b6d4&section=footer" width="100%" alt="footer" />
