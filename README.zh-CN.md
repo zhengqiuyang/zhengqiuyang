@@ -8,8 +8,8 @@
 </p>
 
 <p align="center">
-  <strong>给 agent 造确定性的护栏 —— 顺手修真实项目里的真实 bug</strong><br/>
-  <sub>building deterministic agent tooling — and fixing real bugs in the open source you actually run</sub>
+  <strong>「Empty your mind, be formless, shapeless, like water. Be water, my friend.」—— 李小龙</strong><br/>
+  <sub>给 agent 造确定性的护栏,顺手修真实项目里的真实 bug · building deterministic agent tooling</sub>
 </p>
 
 <p align="center">
