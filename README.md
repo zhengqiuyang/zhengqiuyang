@@ -4,7 +4,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:1e1b4b,50:7c3aed,100:06b6d4&section=header&text=zhengqiuyang&fontSize=46&fontColor=ffffff&animation=twinkling" width="100%" alt="header" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&center=true&vCenter=true&width=760&height=50&color=8B5CF6&lines=agent+tooling+%C2%B7+mcp+security+%C2%B7+local-first;50+repos:+agents,+testing,+x-ray+dev+tools;home-assistant+%C2%B7+cline+%C2%B7+pr-agent+%C2%B7+opencode;bug+hunter+%C2%B7+parser+surgeon+%C2%B7+fix+shipper" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&center=true&vCenter=true&width=760&height=50&color=8B5CF6&lines=deterministic+agent+tooling+%C2%B7+zero-LLM+trust+path;50+repos:+agents+%C2%B7+testing+%C2%B7+x-ray+tools+%C2%B7+apps;fixes+merged+into+home-assistant+%C2%B7+cline+%C2%B7+pr-agent;local-first+%C2%B7+zero+deps+%C2%B7+no-upload+by+default" alt="typing" />
 </p>
 
 <p align="center">
@@ -122,8 +122,10 @@
 ### 🧰 Toolbox
 
 <p align="center">
-  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=py,ts,js,bash,git,md&perline=6" alt="toolbox" /></a>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=py,ts,js,react,vite,numpy,bash,git,githubactions,md&perline=5" alt="toolbox" /></a>
 </p>
+
+<p align="center"><sub>Python · TypeScript · JavaScript at the core — deterministic CLIs & agent guard-rails, React front-ends, a hand-rolled numpy autograd engine; everything local-first, zero upload by default</sub></p>
 
 ---
 

@@ -4,7 +4,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:1e1b4b,50:7c3aed,100:06b6d4&section=header&text=zhengqiuyang&fontSize=46&fontColor=ffffff&animation=twinkling" width="100%" alt="header" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&center=true&vCenter=true&width=760&height=50&color=8B5CF6&lines=%E7%A1%AE%E5%AE%9A%E6%80%A7+agent+%E5%B7%A5%E5%85%B7%E9%93%BE+%C2%B7+%E6%9C%AC%E5%9C%B0%E4%BC%98%E5%85%88;50+%E4%B8%AA%E4%BB%93%E5%BA%93:+agent%E3%80%81%E6%B5%8B%E8%AF%95%E3%80%81%E9%80%8F%E8%A7%86%E9%95%9C%E5%B7%A5%E5%85%B7;home-assistant+%C2%B7+cline+%C2%B7+pr-agent+%C2%B7+opencode;%E6%AF%8F%E4%B8%80%E6%9D%A1%E9%83%BD%E5%8F%AF%E7%82%B9%E5%BC%80%E9%AA%8C%E8%AF%81" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&center=true&vCenter=true&width=760&height=50&color=8B5CF6&lines=%E7%A1%AE%E5%AE%9A%E6%80%A7+agent+%E5%B7%A5%E5%85%B7%E9%93%BE+%C2%B7+%E4%BF%A1%E4%BB%BB%E8%B7%AF%E5%BE%84%E9%9B%B6+LLM;50+%E4%B8%AA%E4%BB%93%E5%BA%93:+agent+%C2%B7+%E6%B5%8B%E8%AF%95+%C2%B7+%E9%80%8F%E8%A7%86%E9%95%9C+%C2%B7+%E5%BA%94%E7%94%A8;%E4%BF%AE%E8%BF%9B+home-assistant+%C2%B7+cline+%C2%B7+pr-agent;%E6%9C%AC%E5%9C%B0%E4%BC%98%E5%85%88+%C2%B7+%E9%9B%B6%E4%BE%9D%E8%B5%96+%C2%B7+%E9%BB%98%E8%AE%A4%E4%B8%8D%E4%B8%8A%E4%BC%A0" alt="typing" />
 </p>
 
 <p align="center">
@@ -122,8 +122,10 @@
 ### 🧰 工具箱
 
 <p align="center">
-  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=py,ts,js,bash,git,md&perline=6" alt="toolbox" /></a>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=py,ts,js,react,vite,numpy,bash,git,githubactions,md&perline=5" alt="toolbox" /></a>
 </p>
+
+<p align="center"><sub>核心是 Python · TypeScript · JavaScript——确定性 CLI 与 agent 护栏、React 前端、手写 numpy autograd 引擎;一切本地优先,默认不上传</sub></p>
 
 ---
 
