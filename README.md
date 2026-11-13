@@ -58,47 +58,19 @@
 
 ### 🏆 Merged into
 
-| Repo | ★ | Shipped |
-|---|:-:|---|
-| [home-assistant/core](https://github.com/home-assistant/core) | ![](https://img.shields.io/github/stars/home-assistant/core?style=flat-square&label=%E2%98%85) | **×5** — tplink_omada sensor crash fixes, WeatherFlow stuck entities, PSK redaction in diagnostics, imou discovery matchers |
-| [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | ![](https://img.shields.io/github/stars/The-PR-Agent/pr-agent?style=flat-square&label=%E2%98%85) | **×5** — diff-parsing robustness: unified-diff headers, fence-aware stripping, hunk mapping, per-provider line counts |
-| [cline/cline](https://github.com/cline/cline) | ![](https://img.shields.io/github/stars/cline/cline?style=flat-square&label=%E2%98%85) | streaming reasoning text cleared on session reset (VSCode) |
-| [makecindy/cindy](https://github.com/makecindy/cindy) | ![](https://img.shields.io/github/stars/makecindy/cindy?style=flat-square&label=%E2%98%85) | DeepSeek custom tool-cleaning applied across all model spellings |
-| [opengeos/GeoLibre](https://github.com/opengeos/GeoLibre) | ![](https://img.shields.io/github/stars/opengeos/GeoLibre?style=flat-square&label=%E2%98%85) | `readPluginAsset` app API for plugin-bundled assets |
-| [wangzan101/Mika](https://github.com/wangzan101/Mika) | ![](https://img.shields.io/github/stars/wangzan101/Mika?style=flat-square&label=%E2%98%85) | schedules re-computed in local time right after timezone change |
-| [TestSprite/testsprite-cli](https://github.com/TestSprite/testsprite-cli) | ![](https://img.shields.io/github/stars/TestSprite/testsprite-cli?style=flat-square&label=%E2%98%85) | **×2** — shared JUnit report-flag rules; same-name tests kept distinct |
-| [opengeos/geoai](https://github.com/opengeos/geoai) | ![](https://img.shields.io/github/stars/opengeos/geoai?style=flat-square&label=%E2%98%85) | **×2** — honor `device`/`model` args; restore missing einops dependency |
-| [reticlehq/reticle](https://github.com/reticlehq/reticle) | ![](https://img.shields.io/github/stars/reticlehq/reticle?style=flat-square&label=%E2%98%85) | FOREIGN probe retried once; fill spelling mapped onto type |
+| Repo | ★ | PRs | Shipped |
+|---|:-:|:-:|---|
+| [home-assistant/core](https://github.com/home-assistant/core) | ![](https://img.shields.io/github/stars/home-assistant/core?style=flat-square&label=%E2%98%85) | [#190963](https://github.com/home-assistant/core/pull/190963) · [#191537](https://github.com/home-assistant/core/pull/191537) · [#189882](https://github.com/home-assistant/core/pull/189882) · [#189876](https://github.com/home-assistant/core/pull/189876) · [#189635](https://github.com/home-assistant/core/pull/189635) | **×5** — tplink_omada sensor crash fixes, WeatherFlow stuck entities, PSK redaction in diagnostics, imou discovery matchers |
+| [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | ![](https://img.shields.io/github/stars/The-PR-Agent/pr-agent?style=flat-square&label=%E2%98%85) | [#4651](https://github.com/The-PR-Agent/pr-agent/pull/4651) · [#4652](https://github.com/The-PR-Agent/pr-agent/pull/4652) · [#4761](https://github.com/The-PR-Agent/pr-agent/pull/4761) · [#4787](https://github.com/The-PR-Agent/pr-agent/pull/4787) · [#4799](https://github.com/The-PR-Agent/pr-agent/pull/4799) | **×5** — diff-parsing robustness: unified-diff headers, fence-aware stripping, hunk mapping, per-provider line counts |
+| [cline/cline](https://github.com/cline/cline) | ![](https://img.shields.io/github/stars/cline/cline?style=flat-square&label=%E2%98%85) | [#15520](https://github.com/cline/cline/pull/15520) | streaming reasoning text cleared on session reset (VSCode) |
+| [makecindy/cindy](https://github.com/makecindy/cindy) | ![](https://img.shields.io/github/stars/makecindy/cindy?style=flat-square&label=%E2%98%85) | [#8569](https://github.com/makecindy/cindy/pull/8569) | DeepSeek custom tool-cleaning applied across all model spellings |
+| [opengeos/GeoLibre](https://github.com/opengeos/GeoLibre) | ![](https://img.shields.io/github/stars/opengeos/GeoLibre?style=flat-square&label=%E2%98%85) | [#3301](https://github.com/opengeos/GeoLibre/pull/3301) | `readPluginAsset` app API for plugin-bundled assets |
+| [wangzan101/Mika](https://github.com/wangzan101/Mika) | ![](https://img.shields.io/github/stars/wangzan101/Mika?style=flat-square&label=%E2%98%85) | [#222](https://github.com/wangzan101/Mika/pull/222) | schedules re-computed in local time right after timezone change |
+| [TestSprite/testsprite-cli](https://github.com/TestSprite/testsprite-cli) | ![](https://img.shields.io/github/stars/TestSprite/testsprite-cli?style=flat-square&label=%E2%98%85) | [#723](https://github.com/TestSprite/testsprite-cli/pull/723) · [#724](https://github.com/TestSprite/testsprite-cli/pull/724) | **×2** — shared JUnit report-flag rules; same-name tests kept distinct |
+| [opengeos/geoai](https://github.com/opengeos/geoai) | ![](https://img.shields.io/github/stars/opengeos/geoai?style=flat-square&label=%E2%98%85) | [#949](https://github.com/opengeos/geoai/pull/949) · [#950](https://github.com/opengeos/geoai/pull/950) | **×2** — honor `device`/`model` args; restore missing einops dependency |
+| [reticlehq/reticle](https://github.com/reticlehq/reticle) | ![](https://img.shields.io/github/stars/reticlehq/reticle?style=flat-square&label=%E2%98%85) | [#2147](https://github.com/reticlehq/reticle/pull/2147) | FOREIGN probe retried once; fill spelling mapped onto type |
 
-<details>
-<summary>📋 every merged PR, linked (19)</summary>
-
-**home-assistant/core**
-- [#190963](https://github.com/home-assistant/core/pull/190963) — Fix KeyError in tplink_omada device and switch port sensors (2026-11-09)
-- [#191537](https://github.com/home-assistant/core/pull/191537) — Fix WeatherFlow Cloud entities getting stuck when a station disappears (2026-11-09)
-- [#189882](https://github.com/home-assistant/core/pull/189882) — Fix StopIteration in tplink_omada gateway port binary sensors (2026-11-09)
-- [#189876](https://github.com/home-assistant/core/pull/189876) — Remove Dahua OUI DHCP matchers from imou discovery (2026-11-02)
-- [#189635](https://github.com/home-assistant/core/pull/189635) — Redact PSK in tplink_omada diagnostics (2026-11-01)
-
-**The-PR-Agent/pr-agent**
-- [#4799](https://github.com/The-PR-Agent/pr-agent/pull/4799) — report diff line counts for gerrit, codecommit and local git (2026-11-09)
-- [#4787](https://github.com/The-PR-Agent/pr-agent/pull/4787) — move non-committable comments into the nearest hunk (2026-11-09)
-- [#4761](https://github.com/The-PR-Agent/pr-agent/pull/4761) — strip pre-hunk file headers in handle_patch_deletions output (2026-11-08)
-- [#4652](https://github.com/The-PR-Agent/pr-agent/pull/4652) — fence-aware stripping for large-PR headers (2026-11-09)
-- [#4651](https://github.com/The-PR-Agent/pr-agent/pull/4651) — gitlab: ignore unified-diff file headers in per-file line counts (2026-11-05)
-
-**others**
-- [cline#15520](https://github.com/cline/cline/pull/15520) — clear streaming reasoning text on reset (2026-11-05)
-- [makecindy/cindy#8569](https://github.com/makecindy/cindy/pull/8569) — DeepSeek 自定义工具清洗覆盖所有型号拼写 (2026-11-12)
-- [opengeos/GeoLibre#3301](https://github.com/opengeos/GeoLibre/pull/3301) — Add readPluginAsset app API for plugin-bundled assets (2026-11-09)
-- [wangzan101/Mika#222](https://github.com/wangzan101/Mika/pull/222) — 改时区后立即按新时区重算按当地时间的计划 (2026-11-02)
-- [TestSprite#723](https://github.com/TestSprite/testsprite-cli/pull/723) — enforce the shared JUnit report-flag rules in testlist run (2026-11-10)
-- [TestSprite#724](https://github.com/TestSprite/testsprite-cli/pull/724) — keep same-name tests distinct in JUnit reports (2026-11-10)
-- [opengeos/geoai#950](https://github.com/opengeos/geoai/pull/950) — sam: honor device and model arguments in prompted mode (2026-11-08)
-- [opengeos/geoai#949](https://github.com/opengeos/geoai/pull/949) — prithvi: add missing einops dependency (2026-11-08)
-- [reticlehq/reticle#2147](https://github.com/reticlehq/reticle/pull/2147) — retry the FOREIGN probe once; map the fill spelling onto type (2026-11-10)
-
-</details>
+<sub>every one of the 19 merged PRs is linked in the table above — click any number to verify</sub>
 
 ---
 
