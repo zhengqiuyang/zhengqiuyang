@@ -8,8 +8,7 @@
 </p>
 
 <p align="center">
-  <strong>「Empty your mind, be formless, shapeless, like water. Be water, my friend.」—— 李小龙</strong><br/>
-  <sub>给 agent 造确定性的护栏,顺手修真实项目里的真实 bug · building deterministic agent tooling</sub>
+  <strong>「Empty your mind, be formless, shapeless, like water. Be water, my friend.」—— 李小龙</strong>
 </p>
 
 <p align="center">

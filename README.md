@@ -8,8 +8,7 @@
 </p>
 
 <p align="center">
-  <strong>"Empty your mind, be formless, shapeless, like water. Be water, my friend." — Bruce Lee</strong><br/>
-  <sub>building deterministic agent tooling · 工具链造在确定性上,名字写在合并记录里 —— 每一条都能点开验证</sub>
+  <strong>"Empty your mind, be formless, shapeless, like water. Be water, my friend." — Bruce Lee</strong>
 </p>
 
 <p align="center">
