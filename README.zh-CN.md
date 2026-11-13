@@ -23,7 +23,7 @@
   <a href="./README.zh-CN.md"><img src="https://img.shields.io/badge/lang-%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-06B6D4?style=flat-square" alt="简体中文" /></a>
 </p>
 
-> 🧭 用确定性给 agent 造护栏 · 修进 210k+★ 的开源项目
+<p align="center">🧭 用确定性给 agent 造护栏 · 修进 210k+★ 的开源项目</p>
 
 ### 🧰 项目
 

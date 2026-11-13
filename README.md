@@ -23,7 +23,7 @@
   <a href="./README.zh-CN.md"><img src="https://img.shields.io/badge/lang-%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-06B6D4?style=flat-square" alt="简体中文" /></a>
 </p>
 
-> 🧭 building deterministic agent tooling · fixing real bugs in 210k+★ of open source
+<p align="center">🧭 building deterministic agent tooling · fixing real bugs in 210k+★ of open source</p>
 
 ### 🧰 Projects
 
