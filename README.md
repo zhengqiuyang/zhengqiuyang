@@ -1,25 +1,56 @@
-<!-- 🚧 DRAFT — 未获用户批准前不发布。发布步骤见 PUBLISH.md -->
+<!-- 🚧 DRAFT — v2:项目前置、去 PR 强调、删在审区。发布步骤见 PUBLISH.md -->
 <!-- privacy: handle-only — no real name, no location, no employer anywhere in this file -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:1e1b4b,50:7c3aed,100:06b6d4&section=header&text=zhengqiuyang&fontSize=46&fontColor=ffffff&animation=twinkling&desc=bug%20hunter%20%C2%B7%20agent%20tooling%20%C2%B7%20parser%20surgery&descSize=16&descAlignY=72" width="100%" alt="header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:1e1b4b,50:7c3aed,100:06b6d4&section=header&text=zhengqiuyang&fontSize=46&fontColor=ffffff&animation=twinkling&desc=deterministic%20agent%20tooling%20%C2%B7%20mcp%20security%20%C2%B7%20local-first&descSize=16&descAlignY=72" width="100%" alt="header" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&center=true&vCenter=true&width=760&height=50&color=8B5CF6&lines=bug+hunter+%C2%B7+parser+surgeon+%C2%B7+fix+shipper;19+PRs+merged+into+210k%E2%98%85+of+open+source;home-assistant+%C2%B7+cline+%C2%B7+pr-agent+%C2%B7+opencode;in+review:+mujoco+%C2%B7+litellm+%C2%B7+haystack+%C2%B7+OpenHands" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&center=true&vCenter=true&width=760&height=50&color=8B5CF6&lines=agent+tooling+%C2%B7+mcp+security+%C2%B7+local-first;50+repos:+agents,+testing,+x-ray+dev+tools;home-assistant+%C2%B7+cline+%C2%B7+pr-agent+%C2%B7+opencode;bug+hunter+%C2%B7+parser+surgeon+%C2%B7+fix+shipper" alt="typing" />
 </p>
 
 <p align="center">
-  <strong>fixing real bugs in the open source you actually run</strong><br/>
-  <sub>用真实的合并记录说话 —— 每一条都能点开验证</sub>
+  <strong>building deterministic agent tooling — and fixing real bugs in the open source you actually run</strong><br/>
+  <sub>工具链造在确定性上,名字写在合并记录里 —— 每一条都能点开验证</sub>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/code_PRs_merged-19-7C3AED?style=flat-square&logo=github&logoColor=white" alt="merged" />
+  <img src="https://img.shields.io/badge/repos_built-50-7C3AED?style=flat-square&logo=github&logoColor=white" alt="repos" />
+  <img src="https://img.shields.io/badge/awesome_dsh_plugin-10_plugins_%C2%B7_24.5k%E2%98%85-22C55E?style=flat-square" alt="awesome" />
   <img src="https://img.shields.io/badge/merged_into-210k%2B%E2%98%85_of_OSS-06B6D4?style=flat-square" alt="reach" />
-  <img src="https://img.shields.io/badge/under_review-14_PRs_%C2%B7_660k%2B%E2%98%85-F59E0B?style=flat-square" alt="review" />
-  <img src="https://img.shields.io/badge/listed_%C3%975-awesome--dsh--plugin_24.5k%E2%98%85-22C55E?style=flat-square" alt="awesome" />
 </p>
 
-> 🎯 fixes shipped into codebases totalling **210k+ ★** · 14 more under review across **660k+ ★**
+---
+
+<a id="projects"></a>
+
+### 🧰 Projects
+
+<sub>50 repos, one thesis: the guard-rail must be deterministic — zero LLM in the trust path. Highlights:</sub>
+
+**Agent trust & testing**
+
+| Repo | What it is |
+|---|---|
+| [mcp-test](https://github.com/zhengqiuyang/mcp-test) | MCP servers 功能+安全测试 — deterministic injection probes, one YAML, one exit code |
+| [agent-attest](https://github.com/zhengqiuyang/agent-attest) | Signed chain-of-custody for AI coding agents — attest what the agent did, gate protected paths in CI |
+| [agent-pr-gate](https://github.com/zhengqiuyang/agent-pr-gate) | Deterministic CI gate for AI-agent PRs — scope policy, residue scan, claims-vs-diff |
+| [agentbench-local](https://github.com/zhengqiuyang/agentbench-local) | SWE-bench for YOUR repo, on YOUR machine — mines tasks from git history, grades with your own tests |
+| [dsh-read-guard](https://github.com/zhengqiuyang/dsh-read-guard) | Prompt-injection interception — scans what the agent READS before it enters model context; obfuscation-resistant |
+
+**X-ray tools for developers**
+
+| Repo | What it is |
+|---|---|
+| [backlens](https://github.com/zhengqiuyang/backlens) | numpy autograd engine with X-ray vision — step-through backward debugging, NaN tracing, animated backward-pass films |
+| [ctxlens](https://github.com/zhengqiuyang/ctxlens) | X-ray for your coding agent's context window — what ate your tokens? Deterministic, zero deps, local-first |
+
+**Everyday AI apps**
+
+| Repo | What it is |
+|---|---|
+| [interview-mate](https://github.com/zhengqiuyang/interview-mate) | 🎯 AI Agent 驱动的面试训练系统:智能体教练 / 模拟面试 / 间隔重复 / 岗位雷达,零依赖本地运行 |
+| [clipbrain](https://github.com/zhengqiuyang/clipbrain) | AI 剪贴板大脑 — 语义检索你复制过的一切,local-first,可选 Ollama embeddings |
+
+<sub>…plus 40+ more: agent-janitor, cronagent, agent-skills, callkeeper, clauselens, dsh-guardian-pet, dsh-spend-audit, WattWatch and the rest of the dsh family — <a href="https://github.com/zhengqiuyang?tab=repositories">full list</a></sub>
 
 ---
 
@@ -71,23 +102,6 @@
 
 ---
 
-<a id="review"></a>
-
-### 🔬 Under review — 14 PRs across 8 repos (660k+ ★)
-
-| Repo | ★ | In flight |
-|---|:-:|---|
-| [anomalyco/opencode](https://github.com/anomalyco/opencode) | ![](https://img.shields.io/github/stars/anomalyco/opencode?style=flat-square&label=%E2%98%85) | **×3** — duplicate-delivery safety: a re-delivered event must not duplicate tool parts, duplicate rows, or regress settled messages ([#61462](https://github.com/anomalyco/opencode/pull/61462), [#61463](https://github.com/anomalyco/opencode/pull/61463), [#61464](https://github.com/anomalyco/opencode/pull/61464)) |
-| [nexu-io/open-design](https://github.com/nexu-io/open-design) | ![](https://img.shields.io/github/stars/nexu-io/open-design?style=flat-square&label=%E2%98%85) | **×2** — a throwing send must not crash the daemon or leak the agent process tree ([#9275](https://github.com/nexu-io/open-design/pull/9275)); inline resources longest-first through escaped spellings ([#9276](https://github.com/nexu-io/open-design/pull/9276)) |
-| [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | ![](https://img.shields.io/github/stars/OpenHands/OpenHands?style=flat-square&label=%E2%98%85) | **×2** — re-render Messages on mid-list streaming slot replacement ([#19328](https://github.com/OpenHands/OpenHands/pull/19328)); stop writing dead localStorage field ([#19281](https://github.com/OpenHands/OpenHands/pull/19281)) |
-| [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | ![](https://img.shields.io/github/stars/CopilotKit/CopilotKit?style=flat-square&label=%E2%98%85) | **×2** — route HITL answers to their own interaction by tool call id ([#8222](https://github.com/CopilotKit/CopilotKit/pull/8222)); save post-apply agent state per run ([#8195](https://github.com/CopilotKit/CopilotKit/pull/8195)) |
-| [BerriAI/litellm](https://github.com/BerriAI/litellm) | ![](https://img.shields.io/github/stars/BerriAI/litellm?style=flat-square&label=%E2%98%85) | COHERE_API_BASE honored for embeddings ([#50249](https://github.com/BerriAI/litellm/pull/50249)) |
-| [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | ![](https://img.shields.io/github/stars/deepset-ai/haystack?style=flat-square&label=%E2%98%85) | reject non-mapping input when deserializing a Pipeline ([#13739](https://github.com/deepset-ai/haystack/pull/13739)) |
-| [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) | ![](https://img.shields.io/github/stars/google-deepmind/mujoco?style=flat-square&label=%E2%98%85) | **×2** — rollout accepts a sequence of MjData ([#3818](https://github.com/google-deepmind/mujoco/pull/3818)); MJX honors `disableactuator` ([#3803](https://github.com/google-deepmind/mujoco/pull/3803)) |
-| [home-assistant/core](https://github.com/home-assistant/core) | ![](https://img.shields.io/github/stars/home-assistant/core?style=flat-square&label=%E2%98%85) | WLED zeroconf discovery KeyError for ignored entries ([#191601](https://github.com/home-assistant/core/pull/191601)) |
-
----
-
 <a id="stats"></a>
 
 ### 📊 Stats
@@ -97,7 +111,7 @@
     <td width="50%">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="assets/war-record-dark.svg" />
-        <img src="assets/war-record-light.svg" alt="war record" width="100%" />
+        <img src="assets/war-record-light.svg" alt="at a glance" width="100%" />
       </picture>
     </td>
     <td width="50%">
@@ -109,7 +123,7 @@
   </tr>
 </table>
 
-<sub>数字采集于 2026-11-14 GitHub API · 每一条都能点开上面的 PR 链接验证</sub>
+<sub>数字采集于 2026-11-14 GitHub API · 每一条都能点开上面的链接验证</sub>
 
 ---
 
@@ -138,4 +152,4 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:1e1b4b,50:7c3aed,100:06b6d4&section=footer" width="100%" alt="footer" />
 
-<!-- built with: capsule-render · readme-typing-svg · streak-stats · skillicons.dev · platane/snk · 自绘 war-record SVG(github-readme-stats / activity-graph 服务已于 2026-11 实测下线,camo 502,不采用) -->
+<!-- built with: capsule-render · readme-typing-svg · streak-stats · skillicons.dev · platane/snk · 自绘 at-a-glance SVG(github-readme-stats / activity-graph 服务已于 2026-11 实测下线,camo 502,不采用) -->
