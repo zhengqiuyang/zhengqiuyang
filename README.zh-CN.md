@@ -1,11 +1,12 @@
 <!-- privacy: handle-only — 全文仅使用 handle,无真名/位置/雇主信息 -->
 <!-- English version: README.md -->
 
-<p align="center">
-  <a href="./README.md">English</a> · <strong>简体中文</strong>
-</p>
-
 <img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:1e1b4b,50:7c3aed,100:06b6d4&section=header&text=zhengqiuyang&fontSize=46&fontColor=ffffff&animation=twinkling" width="100%" alt="header" />
+
+<p align="center">
+  <a href="./README.md"><img src="https://img.shields.io/badge/lang-English-7C3AED?style=flat-square" alt="English" /></a>
+  <a href="./README.zh-CN.md"><img src="https://img.shields.io/badge/lang-%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-06B6D4?style=flat-square" alt="简体中文" /></a>
+</p>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&center=true&vCenter=true&width=760&height=50&color=8B5CF6&lines=%E7%A1%AE%E5%AE%9A%E6%80%A7+agent+%E5%B7%A5%E5%85%B7%E9%93%BE+%C2%B7+%E6%9C%AC%E5%9C%B0%E4%BC%98%E5%85%88;50+%E4%B8%AA%E4%BB%93%E5%BA%93:+agent%E3%80%81%E6%B5%8B%E8%AF%95%E3%80%81%E9%80%8F%E8%A7%86%E9%95%9C%E5%B7%A5%E5%85%B7;home-assistant+%C2%B7+cline+%C2%B7+pr-agent+%C2%B7+opencode;%E6%AF%8F%E4%B8%80%E6%9D%A1%E9%83%BD%E5%8F%AF%E7%82%B9%E5%BC%80%E9%AA%8C%E8%AF%81" alt="typing" />
