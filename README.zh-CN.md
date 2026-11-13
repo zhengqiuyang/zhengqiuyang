@@ -27,7 +27,9 @@
 
 ### 🧰 项目
 
-<sub>50 个仓库,一个信念:护栏必须是确定性的——信任路径上零 LLM。精选:</sub>
+<p align="center"><sub>50 个仓库,一个信念:护栏必须是确定性的——信任路径上零 LLM。精选:</sub></p>
+
+<div align="center">
 
 **Agent 信任与测试**
 
@@ -39,12 +41,20 @@
 | [agentbench-local](https://github.com/zhengqiuyang/agentbench-local) | 把 SWE-bench 搬到你自己的仓库:从 git 历史挖任务,用你自己的测试评分 |
 | [dsh-read-guard](https://github.com/zhengqiuyang/dsh-read-guard) | 提示注入拦截:在进入模型上下文之前扫描代理读了什么,抗混淆 |
 
+</div>
+
+<div align="center">
+
 **开发者的透视镜**
 
 | 仓库 | 简介 |
 |---|---|
 | [backlens](https://github.com/zhengqiuyang/backlens) | 带透视能力的 numpy autograd 引擎:步进调试反向传播、NaN 追踪、反向传播动画 |
 | [ctxlens](https://github.com/zhengqiuyang/ctxlens) | 编码代理上下文透视镜:token 都被谁吃了?确定性、零依赖、本地优先 |
+
+</div>
+
+<div align="center">
 
 **日常 AI 应用**
 
@@ -53,9 +63,13 @@
 | [interview-mate](https://github.com/zhengqiuyang/interview-mate) | 🎯 AI Agent 驱动的面试训练系统:智能体教练 / 模拟面试 / 间隔重复 / 岗位雷达,零依赖本地运行 |
 | [clipbrain](https://github.com/zhengqiuyang/clipbrain) | AI 剪贴板大脑:语义检索你复制过的一切,本地优先,可选 Ollama embeddings |
 
-<sub>…另有 40+ 个仓库:agent-janitor、cronagent、agent-skills、callkeeper、clauselens、dsh-guardian-pet、dsh-spend-audit、WattWatch 与 dsh 全家 —— <a href="https://github.com/zhengqiuyang?tab=repositories">完整列表</a></sub>
+</div>
+
+<p align="center"><sub>…另有 40+ 个仓库:agent-janitor、cronagent、agent-skills、callkeeper、clauselens、dsh-guardian-pet、dsh-spend-audit、WattWatch 与 dsh 全家 —— <a href="https://github.com/zhengqiuyang?tab=repositories">完整列表</a></sub></p>
 
 ### 🏆 合并记录
+
+<div align="center">
 
 | 仓库 | ★ | PRs | 修了什么 |
 |---|:-:|:-:|---|
@@ -69,11 +83,13 @@
 | [opengeos/geoai](https://github.com/opengeos/geoai) | ![](https://img.shields.io/github/stars/opengeos/geoai?style=flat-square&label=%E2%98%85) | [#949](https://github.com/opengeos/geoai/pull/949) · [#950](https://github.com/opengeos/geoai/pull/950) | **×2** — 尊重 `device`/`model` 参数;补回缺失的 einops 依赖 |
 | [reticlehq/reticle](https://github.com/reticlehq/reticle) | ![](https://img.shields.io/github/stars/reticlehq/reticle?style=flat-square&label=%E2%98%85) | [#2147](https://github.com/reticlehq/reticle/pull/2147) | FOREIGN 探测失败重试一次;fill 拼写映射到正确类型 |
 
-<sub>19 个合并 PR 全部带链接——点任意编号即可核验</sub>
+</div>
+
+<p align="center"><sub>19 个合并 PR 全部带链接——点任意编号即可核验</sub></p>
 
 ### 📊 数据
 
-<table>
+<table align="center">
   <tr>
     <td width="50%">
       <picture>
@@ -90,16 +106,18 @@
   </tr>
 </table>
 
-<sub>数字采集于 2026-11-14 GitHub API · 每一条都能点开上面的链接验证</sub>
+<p align="center"><sub>数字采集于 2026-11-14 GitHub API · 每一条都能点开上面的链接验证</sub></p>
 
 ### 🐍 贡献蛇
 
+<p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/github-snake-dark.svg" />
   <img src="assets/github-snake-light.svg" alt="snake" width="100%" />
 </picture>
+</p>
 
-<sub>由 GitHub Action 生成 —— 每天与每次推送后自动刷新</sub>
+<p align="center"><sub>由 GitHub Action 生成 —— 每天与每次推送后自动刷新</sub></p>
 
 ### 🧰 工具箱
 
