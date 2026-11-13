@@ -31,41 +31,41 @@
 
 <div align="center">
 
-**Agent trust & testing**
+**Personal projects**
 
 | Repo | What it is |
 |---|---|
-| [mcp-test](https://github.com/zhengqiuyang/mcp-test) | MCP servers 功能+安全测试 — deterministic injection probes, one YAML, one exit code |
-| [agent-attest](https://github.com/zhengqiuyang/agent-attest) | Signed chain-of-custody for AI coding agents — attest what the agent did, gate protected paths in CI |
-| [agent-pr-gate](https://github.com/zhengqiuyang/agent-pr-gate) | Deterministic CI gate for AI-agent PRs — scope policy, residue scan, claims-vs-diff |
-| [agentbench-local](https://github.com/zhengqiuyang/agentbench-local) | SWE-bench for YOUR repo, on YOUR machine — mines tasks from git history, grades with your own tests |
-| [dsh-read-guard](https://github.com/zhengqiuyang/dsh-read-guard) | Prompt-injection interception — scans what the agent READS before it enters model context; obfuscation-resistant |
-
-</div>
-
-<div align="center">
-
-**X-ray tools for developers**
-
-| Repo | What it is |
-|---|---|
-| [backlens](https://github.com/zhengqiuyang/backlens) | numpy autograd engine with X-ray vision — step-through backward debugging, NaN tracing, animated backward-pass films |
-| [ctxlens](https://github.com/zhengqiuyang/ctxlens) | X-ray for your coding agent's context window — what ate your tokens? Deterministic, zero deps, local-first |
-
-</div>
-
-<div align="center">
-
-**Everyday AI apps**
-
-| Repo | What it is |
-|---|---|
+| [gloss](https://github.com/zhengqiuyang/gloss) | Learn a term once, own it forever — a vocabulary notebook with an LLM for a heart · 查一次,永久拥有. Local-first, any OpenAI-compatible API |
+| [harness-visualizer](https://github.com/zhengqiuyang/harness-visualizer) | Auto-visualize your agent's harness (outer system) as an interactive diagram · 把 agent 外围系统从配置自动可视化成结构图 |
+| [lexiflow](https://github.com/zhengqiuyang/lexiflow) | 本地优先的全能英语学习应用:沉浸阅读 + SM-2 + 词书 + AI 口语(BYO key),零构建零依赖 |
+| [git-dojo](https://github.com/zhengqiuyang/git-dojo) | 面向新手的 Git 闯关学习平台:真实沙盒终端 + 分支图实时可视化 + 仓库感知 AI 助教 |
+| [shuorenhua](https://github.com/zhengqiuyang/shuorenhua) | 说人话 · 职场黑话词典 — 把 OKR、MVP、「对齐颗粒度」翻译成人话 · 147 terms × 8 categories |
+| [yearfilm](https://github.com/zhengqiuyang/yearfilm) | 把一年照片自动生成有章节、配乐、运镜的回忆电影 · 全本地 · CLIP 选片 |
 | [interview-mate](https://github.com/zhengqiuyang/interview-mate) | 🎯 AI Agent 驱动的面试训练系统:智能体教练 / 模拟面试 / 间隔重复 / 岗位雷达,零依赖本地运行 |
-| [clipbrain](https://github.com/zhengqiuyang/clipbrain) | AI 剪贴板大脑 — 语义检索你复制过的一切,local-first,可选 Ollama embeddings |
+| [PixelTrace](https://github.com/zhengqiuyang/PixelTrace) | Pure-frontend pixel-level image diff — 6 comparison views, PSNR/SSIM/ΔE metrics, folder batch compare, zero upload |
 
 </div>
 
-<p align="center"><sub>…plus 40+ more: agent-janitor, cronagent, agent-skills, callkeeper, clauselens, dsh-guardian-pet, dsh-spend-audit, WattWatch and the rest of the dsh family — <a href="https://github.com/zhengqiuyang?tab=repositories">full list</a></sub></p>
+<div align="center">
+
+**dsh plugins** — 10 of them listed in [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) (24.5k★)
+
+| Plugin | What it does |
+|---|---|
+| [dsh-read-guard](https://github.com/zhengqiuyang/dsh-read-guard) | Prompt-injection interception — scans what the agent READS before it enters model context; obfuscation-resistant |
+| [dsh-pr-gate](https://github.com/zhengqiuyang/dsh-pr-gate) | Deterministic write gate — scope policy + residue scan at the moment of the write |
+| [dsh-attest-chain](https://github.com/zhengqiuyang/dsh-attest-chain) | Signed chain-of-custody — hash-chained, ed25519-signed records of what the agent actually did |
+| [dsh-mcp-test](https://github.com/zhengqiuyang/dsh-mcp-test) | Tool-surface snapshot & drift gate — every visible tool baselined; silent changes fail loud |
+| [dsh-egress-gate](https://github.com/zhengqiuyang/dsh-egress-gate) | Deterministic network egress gate — web fetches checked against an allowlist before they run |
+| [dsh-prompt-drift](https://github.com/zhengqiuyang/dsh-prompt-drift) | System-prompt surface drift gate — sections any plugin contributes are hashed and baselined |
+| [dsh-janitor](https://github.com/zhengqiuyang/dsh-janitor) | Artifact lifecycle — scans session debris, returns a reviewable cleanup plan; the janitor is never an agent |
+| [dsh-freeze](https://github.com/zhengqiuyang/dsh-freeze) | Hermetic composition lock — profile fingerprint; drifted compositions warn or fail (strict) |
+| [dsh-compaction-guard](https://github.com/zhengqiuyang/dsh-compaction-guard) | Compaction integrity — what the agent was told to remember and silently forgot is reported loudly |
+| [dsh-trust-panel](https://github.com/zhengqiuyang/dsh-trust-panel) | Plain-language trust dashboard — nine channels, one status light, zero jargon |
+
+</div>
+
+<p align="center"><sub>…plus 40+ more: mcp-test, agent-attest, agent-pr-gate, agentbench-local, cronagent, backlens, ctxlens, clipbrain, callkeeper, clauselens, agent-skills, dsh-guardian-pet, dsh-spend-audit — <a href="https://github.com/zhengqiuyang?tab=repositories">full list</a></sub></p>
 
 ### 🏆 Merged into
 

@@ -31,41 +31,41 @@
 
 <div align="center">
 
-**Agent 信任与测试**
+**个人项目**
 
 | 仓库 | 简介 |
 |---|---|
-| [mcp-test](https://github.com/zhengqiuyang/mcp-test) | MCP 服务器功能+安全测试:确定性注入探针,一个 YAML,一个退出码 |
-| [agent-attest](https://github.com/zhengqiuyang/agent-attest) | AI 编码代理的签名监管链:记录代理做过什么,CI 中门禁保护路径 |
-| [agent-pr-gate](https://github.com/zhengqiuyang/agent-pr-gate) | AI 代理 PR 的确定性 CI 门禁:范围策略、残留扫描、声明与 diff 对账 |
-| [agentbench-local](https://github.com/zhengqiuyang/agentbench-local) | 把 SWE-bench 搬到你自己的仓库:从 git 历史挖任务,用你自己的测试评分 |
-| [dsh-read-guard](https://github.com/zhengqiuyang/dsh-read-guard) | 提示注入拦截:在进入模型上下文之前扫描代理读了什么,抗混淆 |
-
-</div>
-
-<div align="center">
-
-**开发者的透视镜**
-
-| 仓库 | 简介 |
-|---|---|
-| [backlens](https://github.com/zhengqiuyang/backlens) | 带透视能力的 numpy autograd 引擎:步进调试反向传播、NaN 追踪、反向传播动画 |
-| [ctxlens](https://github.com/zhengqiuyang/ctxlens) | 编码代理上下文透视镜:token 都被谁吃了?确定性、零依赖、本地优先 |
-
-</div>
-
-<div align="center">
-
-**日常 AI 应用**
-
-| 仓库 | 简介 |
-|---|---|
+| [gloss](https://github.com/zhengqiuyang/gloss) | 查一次,永久拥有 —— 以 LLM 为心的生词本,本地优先,兼容任意 OpenAI 接口 |
+| [harness-visualizer](https://github.com/zhengqiuyang/harness-visualizer) | 把 agent 的外围系统(harness)从配置自动可视化成交互结构图 |
+| [lexiflow](https://github.com/zhengqiuyang/lexiflow) | 本地优先的全能英语学习应用:沉浸阅读 + SM-2 + 词书 + AI 口语(BYO key),零构建零依赖 |
+| [git-dojo](https://github.com/zhengqiuyang/git-dojo) | 面向新手的 Git 闯关学习平台:真实沙盒终端 + 分支图实时可视化 + 仓库感知 AI 助教 |
+| [shuorenhua](https://github.com/zhengqiuyang/shuorenhua) | 说人话 · 职场黑话与术语词典:把 OKR、MVP、「对齐颗粒度」翻译成人话 · 147 词条 × 8 大类 |
+| [yearfilm](https://github.com/zhengqiuyang/yearfilm) | 把一年照片自动生成有章节、配乐、运镜的回忆电影 · 全本地 · CLIP 选片 |
 | [interview-mate](https://github.com/zhengqiuyang/interview-mate) | 🎯 AI Agent 驱动的面试训练系统:智能体教练 / 模拟面试 / 间隔重复 / 岗位雷达,零依赖本地运行 |
-| [clipbrain](https://github.com/zhengqiuyang/clipbrain) | AI 剪贴板大脑:语义检索你复制过的一切,本地优先,可选 Ollama embeddings |
+| [PixelTrace](https://github.com/zhengqiuyang/PixelTrace) | 纯前端像素级图像对比:6 种对比视图、变化区域聚类、PSNR/SSIM/ΔE 指标、文件夹批量对比,无后端无上传 |
 
 </div>
 
-<p align="center"><sub>…另有 40+ 个仓库:agent-janitor、cronagent、agent-skills、callkeeper、clauselens、dsh-guardian-pet、dsh-spend-audit、WattWatch 与 dsh 全家 —— <a href="https://github.com/zhengqiuyang?tab=repositories">完整列表</a></sub></p>
+<div align="center">
+
+**dsh 插件** —— 10 个被 [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)(24.5k★)收录
+
+| 插件 | 简介 |
+|---|---|
+| [dsh-read-guard](https://github.com/zhengqiuyang/dsh-read-guard) | 提示注入拦截:在进入模型上下文之前扫描代理读了什么,抗混淆 |
+| [dsh-pr-gate](https://github.com/zhengqiuyang/dsh-pr-gate) | 确定性写入门禁:写入瞬间的范围策略 + 残留扫描 |
+| [dsh-attest-chain](https://github.com/zhengqiuyang/dsh-attest-chain) | 签名监管链:哈希链 + ed25519 签名,记录代理的真实行为 |
+| [dsh-mcp-test](https://github.com/zhengqiuyang/dsh-mcp-test) | 工具面快照与漂移门禁:所有可见工具基线化,静默变更即大声报错 |
+| [dsh-egress-gate](https://github.com/zhengqiuyang/dsh-egress-gate) | 确定性网络出口门禁:web 请求先过目的地白名单 |
+| [dsh-prompt-drift](https://github.com/zhengqiuyang/dsh-prompt-drift) | 系统提示词漂移门禁:各插件贡献的段落哈希基线化 |
+| [dsh-janitor](https://github.com/zhengqiuyang/dsh-janitor) | 产物生命周期:扫描会话残留,产出可审阅的清理计划——清洁工不是 agent |
+| [dsh-freeze](https://github.com/zhengqiuyang/dsh-freeze) | 封闭组合锁:profile 指纹,组合漂移即警告或失败(strict) |
+| [dsh-compaction-guard](https://github.com/zhengqiuyang/dsh-compaction-guard) | 压缩完整性:代理被告知记住却被悄悄忘记的内容,大声报告 |
+| [dsh-trust-panel](https://github.com/zhengqiuyang/dsh-trust-panel) | 白话信任面板:九个通道,一个状态灯,零黑话 |
+
+</div>
+
+<p align="center"><sub>…另有 40+ 个仓库:mcp-test、agent-attest、agent-pr-gate、agentbench-local、cronagent、backlens、ctxlens、clipbrain、callkeeper、clauselens、agent-skills、dsh-guardian-pet、dsh-spend-audit —— <a href="https://github.com/zhengqiuyang?tab=repositories">完整列表</a></sub></p>
 
 ### 🏆 合并记录
 
