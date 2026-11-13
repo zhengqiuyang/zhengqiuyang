@@ -122,10 +122,10 @@
 ### 🧰 工具箱
 
 <p align="center">
-  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=py,ts,js,react,vite,numpy,bash,git,githubactions,md&perline=5" alt="toolbox" /></a>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=py,ts,js,cpp,nodejs,react,vite,numpy,ai,pytorch,bash,git,githubactions,md&perline=7" alt="toolbox" /></a>
 </p>
 
-<p align="center"><sub>核心是 Python · TypeScript · JavaScript——确定性 CLI 与 agent 护栏、React 前端、手写 numpy autograd 引擎;一切本地优先,默认不上传</sub></p>
+<p align="center"><sub>核心是 Python · TypeScript · JavaScript · C++17——确定性 CLI 与 agent 护栏、React 前端、手写 numpy autograd 引擎、PyTorch 跑 CLIP;一切本地优先,默认不上传</sub></p>
 
 ---
 

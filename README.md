@@ -122,10 +122,10 @@
 ### 🧰 Toolbox
 
 <p align="center">
-  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=py,ts,js,react,vite,numpy,bash,git,githubactions,md&perline=5" alt="toolbox" /></a>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=py,ts,js,cpp,nodejs,react,vite,numpy,ai,pytorch,bash,git,githubactions,md&perline=7" alt="toolbox" /></a>
 </p>
 
-<p align="center"><sub>Python · TypeScript · JavaScript at the core — deterministic CLIs & agent guard-rails, React front-ends, a hand-rolled numpy autograd engine; everything local-first, zero upload by default</sub></p>
+<p align="center"><sub>Python · TypeScript · JavaScript · C++17 at the core — deterministic CLIs & agent guard-rails, React front-ends, a hand-rolled numpy autograd engine, CLIP on PyTorch; everything local-first, zero upload by default</sub></p>
 
 ---
 
