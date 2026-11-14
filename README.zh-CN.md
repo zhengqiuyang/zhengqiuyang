@@ -15,7 +15,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/%E8%87%AA%E5%BB%BA%E4%BB%93%E5%BA%93-50-7C3AED?style=flat-square&logo=github&logoColor=white" alt="repos" />
   <img src="https://img.shields.io/badge/awesome_dsh_plugin-10_plugins_%C2%B7_24.5k%E2%98%85-22C55E?style=flat-square" alt="awesome" />
-  <img src="https://img.shields.io/badge/%E5%90%88%E8%BF%9B-210k%2B%E2%98%85_%E5%BC%80%E6%BA%90-06B6D4?style=flat-square" alt="reach" />
+  <img src="https://img.shields.io/badge/%E5%90%88%E8%BF%9B-270k%2B%E2%98%85_%E5%BC%80%E6%BA%90-06B6D4?style=flat-square" alt="reach" />
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@
   <a href="./README.zh-CN.md"><img src="https://img.shields.io/badge/lang-%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-06B6D4?style=flat-square" alt="简体中文" /></a>
 </p>
 
-<p align="center">🧭 用确定性给 agent 造护栏 · 修进 210k+★ 的开源项目</p>
+<p align="center">🧭 用确定性给 agent 造护栏 · 修进 270k+★ 的开源项目</p>
 
 ### 🧰 项目
 
@@ -77,6 +77,7 @@
 | [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | ![](https://img.shields.io/github/stars/The-PR-Agent/pr-agent?style=flat-square&label=%E2%98%85) | [#4651](https://github.com/The-PR-Agent/pr-agent/pull/4651) · [#4652](https://github.com/The-PR-Agent/pr-agent/pull/4652) · [#4761](https://github.com/The-PR-Agent/pr-agent/pull/4761) · [#4787](https://github.com/The-PR-Agent/pr-agent/pull/4787) · [#4799](https://github.com/The-PR-Agent/pr-agent/pull/4799) | **×5** — diff 解析健壮性:unified-diff 文件头、fence 感知剥离、hunk 映射、多 provider 行数统计 |
 | [cline/cline](https://github.com/cline/cline) | ![](https://img.shields.io/github/stars/cline/cline?style=flat-square&label=%E2%98%85) | [#15520](https://github.com/cline/cline/pull/15520) | 会话重置时清空流式 reasoning 文本(VSCode) |
 | [makecindy/cindy](https://github.com/makecindy/cindy) | ![](https://img.shields.io/github/stars/makecindy/cindy?style=flat-square&label=%E2%98%85) | [#8569](https://github.com/makecindy/cindy/pull/8569) | DeepSeek 自定义工具清洗覆盖所有型号拼写 |
+| [BerriAI/litellm](https://github.com/BerriAI/litellm) | ![](https://img.shields.io/github/stars/BerriAI/litellm?style=flat-square&label=%E2%98%85) | [#50249](https://github.com/BerriAI/litellm/pull/50249) | Cohere embeddings 忽略 `COHERE_API_BASE`(rerank 却遵守);chat 端点映射到同 host 的 `/v2/embed`,显式 `api_base` 原样透传 |
 | [opengeos/GeoLibre](https://github.com/opengeos/GeoLibre) | ![](https://img.shields.io/github/stars/opengeos/GeoLibre?style=flat-square&label=%E2%98%85) | [#3301](https://github.com/opengeos/GeoLibre/pull/3301) | 新增 `readPluginAsset` app API,供插件自带资源读取 |
 | [wangzan101/Mika](https://github.com/wangzan101/Mika) | ![](https://img.shields.io/github/stars/wangzan101/Mika?style=flat-square&label=%E2%98%85) | [#222](https://github.com/wangzan101/Mika/pull/222) | 改时区后立即按新时区重算按当地时间的计划 |
 | [TestSprite/testsprite-cli](https://github.com/TestSprite/testsprite-cli) | ![](https://img.shields.io/github/stars/TestSprite/testsprite-cli?style=flat-square&label=%E2%98%85) | [#723](https://github.com/TestSprite/testsprite-cli/pull/723) · [#724](https://github.com/TestSprite/testsprite-cli/pull/724) | **×2** — 统一 JUnit 报告参数规则;同名测试保持区分 |
@@ -85,7 +86,7 @@
 
 </div>
 
-<p align="center"><sub>19 个合并 PR 全部带链接——点任意编号即可核验</sub></p>
+<p align="center"><sub>20 个合并 PR 全部带链接——点任意编号即可核验</sub></p>
 
 ### 📊 数据
 

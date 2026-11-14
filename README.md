@@ -15,7 +15,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/repos_built-50-7C3AED?style=flat-square&logo=github&logoColor=white" alt="repos" />
   <img src="https://img.shields.io/badge/awesome_dsh_plugin-10_plugins_%C2%B7_24.5k%E2%98%85-22C55E?style=flat-square" alt="awesome" />
-  <img src="https://img.shields.io/badge/merged_into-210k%2B%E2%98%85_of_OSS-06B6D4?style=flat-square" alt="reach" />
+  <img src="https://img.shields.io/badge/merged_into-270k%2B%E2%98%85_of_OSS-06B6D4?style=flat-square" alt="reach" />
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@
   <a href="./README.zh-CN.md"><img src="https://img.shields.io/badge/lang-%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-06B6D4?style=flat-square" alt="简体中文" /></a>
 </p>
 
-<p align="center">🧭 building deterministic agent tooling · fixing real bugs in 210k+★ of open source</p>
+<p align="center">🧭 building deterministic agent tooling · fixing real bugs in 270k+★ of open source</p>
 
 ### 🧰 Projects
 
@@ -76,6 +76,7 @@
 | [home-assistant/core](https://github.com/home-assistant/core) | ![](https://img.shields.io/github/stars/home-assistant/core?style=flat-square&label=%E2%98%85) | [#190963](https://github.com/home-assistant/core/pull/190963) · [#191537](https://github.com/home-assistant/core/pull/191537) · [#189882](https://github.com/home-assistant/core/pull/189882) · [#189876](https://github.com/home-assistant/core/pull/189876) · [#189635](https://github.com/home-assistant/core/pull/189635) | **×5** — tplink_omada sensor crash fixes, WeatherFlow stuck entities, PSK redaction in diagnostics, imou discovery matchers |
 | [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | ![](https://img.shields.io/github/stars/The-PR-Agent/pr-agent?style=flat-square&label=%E2%98%85) | [#4651](https://github.com/The-PR-Agent/pr-agent/pull/4651) · [#4652](https://github.com/The-PR-Agent/pr-agent/pull/4652) · [#4761](https://github.com/The-PR-Agent/pr-agent/pull/4761) · [#4787](https://github.com/The-PR-Agent/pr-agent/pull/4787) · [#4799](https://github.com/The-PR-Agent/pr-agent/pull/4799) | **×5** — diff-parsing robustness: unified-diff headers, fence-aware stripping, hunk mapping, per-provider line counts |
 | [cline/cline](https://github.com/cline/cline) | ![](https://img.shields.io/github/stars/cline/cline?style=flat-square&label=%E2%98%85) | [#15520](https://github.com/cline/cline/pull/15520) | streaming reasoning text cleared on session reset (VSCode) |
+| [BerriAI/litellm](https://github.com/BerriAI/litellm) | ![](https://img.shields.io/github/stars/BerriAI/litellm?style=flat-square&label=%E2%98%85) | [#50249](https://github.com/BerriAI/litellm/pull/50249) | Cohere embeddings ignored `COHERE_API_BASE` (rerank honored it); chat-endpoint bases now map to the same host's `/v2/embed`, explicit `api_base` passes through verbatim |
 | [makecindy/cindy](https://github.com/makecindy/cindy) | ![](https://img.shields.io/github/stars/makecindy/cindy?style=flat-square&label=%E2%98%85) | [#8569](https://github.com/makecindy/cindy/pull/8569) | DeepSeek custom tool-cleaning applied across all model spellings |
 | [opengeos/GeoLibre](https://github.com/opengeos/GeoLibre) | ![](https://img.shields.io/github/stars/opengeos/GeoLibre?style=flat-square&label=%E2%98%85) | [#3301](https://github.com/opengeos/GeoLibre/pull/3301) | `readPluginAsset` app API for plugin-bundled assets |
 | [wangzan101/Mika](https://github.com/wangzan101/Mika) | ![](https://img.shields.io/github/stars/wangzan101/Mika?style=flat-square&label=%E2%98%85) | [#222](https://github.com/wangzan101/Mika/pull/222) | schedules re-computed in local time right after timezone change |
@@ -85,7 +86,7 @@
 
 </div>
 
-<p align="center"><sub>every one of the 19 merged PRs is linked in the table above — click any number to verify</sub></p>
+<p align="center"><sub>every one of the 20 merged PRs is linked in the table above — click any number to verify</sub></p>
 
 ### 📊 Stats
 
