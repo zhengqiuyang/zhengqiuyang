@@ -81,7 +81,10 @@
 
 **安装：** `npx skills add zhengqiuyang/<repo>`，例如 `npx skills add zhengqiuyang/monetize-skill`
 
-**配套工具：** [skill-ci](https://github.com/zhengqiuyang/skill-ci) — 技能的静态 CI · [vendor-skills](https://github.com/zhengqiuyang/vendor-skills) — 锁定版本、校验后再 vendoring
+| 配套工具 | 做什么 |
+|---|---|
+| [skill-ci](https://github.com/zhengqiuyang/skill-ci) | 技能的静态 CI：lint `SKILL.md`、测试触发选择、卡 PR |
+| [vendor-skills](https://github.com/zhengqiuyang/vendor-skills) | 锁定版本、校验后再 vendoring —— 可复现、离线安装 |
 
 **DSH 插件：** [dsh-extra-income](https://github.com/zhengqiuyang/dsh-extra-income) 内置 `monetize` · [dsh-readme-polish](https://github.com/zhengqiuyang/dsh-readme-polish) 内置 `readme-polish`
 

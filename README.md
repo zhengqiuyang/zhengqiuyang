@@ -81,7 +81,10 @@
 
 **Install:** `npx skills add zhengqiuyang/<repo>` — e.g. `npx skills add zhengqiuyang/monetize-skill`
 
-**Tooling:** [skill-ci](https://github.com/zhengqiuyang/skill-ci) — static CI for skills · [vendor-skills](https://github.com/zhengqiuyang/vendor-skills) — pinned, validated skill vendoring
+| Tooling | What it does |
+|---|---|
+| [skill-ci](https://github.com/zhengqiuyang/skill-ci) | Static CI for agent skills — lint `SKILL.md`, test trigger selection, gate PRs |
+| [vendor-skills](https://github.com/zhengqiuyang/vendor-skills) | Pinned, validated skill vendoring — reproducible, offline installs |
 
 **DSH bundle:** [dsh-extra-income](https://github.com/zhengqiuyang/dsh-extra-income) ships `monetize` · [dsh-readme-polish](https://github.com/zhengqiuyang/dsh-readme-polish) ships `readme-polish`
 
