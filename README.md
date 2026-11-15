@@ -65,7 +65,7 @@
 
 </div>
 
-<p align="center"><sub>…plus 40+ more: mcp-test, agent-attest, agent-pr-gate, agentbench-local, cronagent, backlens, ctxlens, clipbrain, callkeeper, clauselens, agent-skills, dsh-guardian-pet, dsh-spend-audit — <a href="https://github.com/zhengqiuyang?tab=repositories">full list</a></sub></p>
+<p align="center"><sub>…plus 40+ more: mcp-test, agent-attest, agent-pr-gate, agentbench-local, cronagent, backlens, ctxlens, clipbrain, callkeeper, clauselens, dsh-guardian-pet, dsh-spend-audit — <a href="https://github.com/zhengqiuyang?tab=repositories">full list</a></sub></p>
 
 ### 🧪 Agent Skills
 
@@ -78,7 +78,6 @@
 | [monetize](https://github.com/zhengqiuyang/monetize-skill) | Turn a career history into an honest, actionable side-income plan — six modules, sourced numbers, one leverage action |
 | [readme-polish](https://github.com/zhengqiuyang/readme-polish) | Upgrade an existing README to the top-repo standard of its own ecosystem, with a deterministic lint gate |
 | [source-audit](https://github.com/zhengqiuyang/source-audit) | Pre-publish source audit — fetch every cited link, grade every claim in a Chinese draft |
-| [agent-skills](https://github.com/zhengqiuyang/agent-skills) | Six distilled skills: real-world gauntlet, competitor research, TS CLI house rules, deep-tech articles, release hygiene, MCP test suites |
 
 **Install:** `npx skills add zhengqiuyang/<repo>` — e.g. `npx skills add zhengqiuyang/monetize-skill`
 

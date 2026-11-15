@@ -65,7 +65,7 @@
 
 </div>
 
-<p align="center"><sub>…另有 40+ 个仓库:mcp-test、agent-attest、agent-pr-gate、agentbench-local、cronagent、backlens、ctxlens、clipbrain、callkeeper、clauselens、agent-skills、dsh-guardian-pet、dsh-spend-audit —— <a href="https://github.com/zhengqiuyang?tab=repositories">完整列表</a></sub></p>
+<p align="center"><sub>…另有 40+ 个仓库:mcp-test、agent-attest、agent-pr-gate、agentbench-local、cronagent、backlens、ctxlens、clipbrain、callkeeper、clauselens、dsh-guardian-pet、dsh-spend-audit —— <a href="https://github.com/zhengqiuyang?tab=repositories">完整列表</a></sub></p>
 
 ### 🧪 技能（Agent Skills）
 
@@ -78,7 +78,6 @@
 | [monetize](https://github.com/zhengqiuyang/monetize-skill) | 把职业经历变成诚实、可执行的副业收入方案：六模块、数字带来源、只给一个杠杆动作 |
 | [readme-polish](https://github.com/zhengqiuyang/readme-polish) | 把已有 README 升级到同生态头部仓库的水准，附确定性 lint 门禁 |
 | [source-audit](https://github.com/zhengqiuyang/source-audit) | 发布前信源审计：逐链接抓取，核对中文稿件里的每条断言 |
-| [agent-skills](https://github.com/zhengqiuyang/agent-skills) | 六个源自实战的技能：真实世界考验、竞品调研、TS CLI 家规、深度技术文、发版卫生、MCP 测试套件 |
 
 **安装：** `npx skills add zhengqiuyang/<repo>`，例如 `npx skills add zhengqiuyang/monetize-skill`
 
