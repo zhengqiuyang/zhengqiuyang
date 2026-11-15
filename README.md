@@ -4,7 +4,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:1e1b4b,50:7c3aed,100:06b6d4&section=header&text=zhengqiuyang&fontSize=46&fontColor=ffffff&animation=twinkling" width="100%" alt="header" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1800&center=true&vCenter=true&width=760&height=50&color=8B5CF6&lines=gloss+%C2%B7+harness-visualizer+%C2%B7+lexiflow;git-dojo+%C2%B7+shuorenhua+%C2%B7+yearfilm;interview-mate+%C2%B7+PixelTrace;Be+water,+my+friend." alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1800&center=true&vCenter=true&width=760&height=50&color=8B5CF6&lines=gloss+%C2%B7+harness-visualizer+%C2%B7+lexiflow;git-dojo+%C2%B7+shuorenhua;interview-mate+%C2%B7+PixelTrace;Be+water,+my+friend." alt="typing" />
 </p>
 
 <p align="center">
@@ -40,7 +40,6 @@
 | [lexiflow](https://github.com/zhengqiuyang/lexiflow) | 本地优先的全能英语学习应用:沉浸阅读 + SM-2 + 词书 + AI 口语(BYO key),零构建零依赖 |
 | [git-dojo](https://github.com/zhengqiuyang/git-dojo) | 面向新手的 Git 闯关学习平台:真实沙盒终端 + 分支图实时可视化 + 仓库感知 AI 助教 |
 | [shuorenhua](https://github.com/zhengqiuyang/shuorenhua) | 说人话 · 职场黑话词典 — 把 OKR、MVP、「对齐颗粒度」翻译成人话 · 147 terms × 8 categories |
-| [yearfilm](https://github.com/zhengqiuyang/yearfilm) | 把一年照片自动生成有章节、配乐、运镜的回忆电影 · 全本地 · CLIP 选片 |
 | [interview-mate](https://github.com/zhengqiuyang/interview-mate) | 🎯 AI Agent 驱动的面试训练系统:智能体教练 / 模拟面试 / 间隔重复 / 岗位雷达,零依赖本地运行 |
 | [PixelTrace](https://github.com/zhengqiuyang/PixelTrace) | Pure-frontend pixel-level image diff — 6 comparison views, PSNR/SSIM/ΔE metrics, folder batch compare, zero upload |
 
