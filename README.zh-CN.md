@@ -96,7 +96,7 @@
 | 仓库 | ★ | PRs | 修了什么 |
 |---|:-:|:-:|---|
 | [home-assistant/core](https://github.com/home-assistant/core) | ![](https://img.shields.io/github/stars/home-assistant/core?style=flat-square&label=%E2%98%85) | [#190963](https://github.com/home-assistant/core/pull/190963) · [#191537](https://github.com/home-assistant/core/pull/191537) · [#189882](https://github.com/home-assistant/core/pull/189882) · [#189876](https://github.com/home-assistant/core/pull/189876) · [#189635](https://github.com/home-assistant/core/pull/189635) | **×5** — tplink_omada 传感器崩溃修复、WeatherFlow 实体卡死、诊断信息 PSK 脱敏、imou 发现匹配器 |
-| [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | ![](https://img.shields.io/github/stars/heygen-com/hyperframes?style=flat-square&label=%E2%98%85) | [#8019](https://github.com/heygen-com/hyperframes/pull/8019) | 边采集边编码时把软件编码器线程限制在采集未占用的核内,overlap 渲染不再抢满 CPU(#7458) |
+| [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | ![](https://img.shields.io/github/stars/heygen-com/hyperframes?style=flat-square&label=%E2%98%85) | [#8019](https://github.com/heygen-com/hyperframes/pull/8019) · [#8032](https://github.com/heygen-com/hyperframes/pull/8032) · [#8037](https://github.com/heygen-com/hyperframes/pull/8037) | **×3** — overlap 编码器线程限制在空闲核(#7458);lint 时间解析钳负值 `data-start`(#8031)、跳过运行时解析的 mount 起点而非虚构空白尾(#8036) |
 | [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | ![](https://img.shields.io/github/stars/headroomlabs-ai/headroom?style=flat-square&label=%E2%98%85) | [#4875](https://github.com/headroomlabs-ai/headroom/pull/4875) | 无损表格不再把长得像 JSON 容器的字符串强行转换(#4874) |
 | [cline/cline](https://github.com/cline/cline) | ![](https://img.shields.io/github/stars/cline/cline?style=flat-square&label=%E2%98%85) | [#15520](https://github.com/cline/cline/pull/15520) | 会话重置时清空流式 reasoning 文本(VSCode) |
 | [BerriAI/litellm](https://github.com/BerriAI/litellm) | ![](https://img.shields.io/github/stars/BerriAI/litellm?style=flat-square&label=%E2%98%85) | [#50249](https://github.com/BerriAI/litellm/pull/50249) | Cohere embeddings 忽略 `COHERE_API_BASE`(rerank 却遵守);chat 端点映射到同 host 的 `/v2/embed`,显式 `api_base` 原样透传 |
@@ -111,7 +111,7 @@
 
 </div>
 
-<p align="center"><sub>23 个合并 PR 全部带链接——点任意编号即可核验</sub></p>
+<p align="center"><sub>25 个合并 PR 全部带链接——点任意编号即可核验</sub></p>
 
 ### 📊 数据
 

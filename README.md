@@ -96,7 +96,7 @@
 | Repo | ★ | PRs | Shipped |
 |---|:-:|:-:|---|
 | [home-assistant/core](https://github.com/home-assistant/core) | ![](https://img.shields.io/github/stars/home-assistant/core?style=flat-square&label=%E2%98%85) | [#190963](https://github.com/home-assistant/core/pull/190963) · [#191537](https://github.com/home-assistant/core/pull/191537) · [#189882](https://github.com/home-assistant/core/pull/189882) · [#189876](https://github.com/home-assistant/core/pull/189876) · [#189635](https://github.com/home-assistant/core/pull/189635) | **×5** — tplink_omada sensor crash fixes, WeatherFlow stuck entities, PSK redaction in diagnostics, imou discovery matchers |
-| [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | ![](https://img.shields.io/github/stars/heygen-com/hyperframes?style=flat-square&label=%E2%98%85) | [#8019](https://github.com/heygen-com/hyperframes/pull/8019) | overlap renders cap the software encoder to the cores capture leaves free, so encoding during capture no longer oversubscribes the CPU (#7458) |
+| [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | ![](https://img.shields.io/github/stars/heygen-com/hyperframes?style=flat-square&label=%E2%98%85) | [#8019](https://github.com/heygen-com/hyperframes/pull/8019) · [#8032](https://github.com/heygen-com/hyperframes/pull/8032) · [#8037](https://github.com/heygen-com/hyperframes/pull/8037) | **×3** — overlap renders cap the software encoder to the cores capture leaves free (#7458); lint timing reader now clamps a negative `data-start` (#8031) and skips a runtime-resolved mount start instead of inventing a blank tail (#8036) |
 | [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | ![](https://img.shields.io/github/stars/headroomlabs-ai/headroom?style=flat-square&label=%E2%98%85) | [#4875](https://github.com/headroomlabs-ai/headroom/pull/4875) | lossless tables keep strings that look like JSON containers as strings (#4874) |
 | [cline/cline](https://github.com/cline/cline) | ![](https://img.shields.io/github/stars/cline/cline?style=flat-square&label=%E2%98%85) | [#15520](https://github.com/cline/cline/pull/15520) | streaming reasoning text cleared on session reset (VSCode) |
 | [BerriAI/litellm](https://github.com/BerriAI/litellm) | ![](https://img.shields.io/github/stars/BerriAI/litellm?style=flat-square&label=%E2%98%85) | [#50249](https://github.com/BerriAI/litellm/pull/50249) | Cohere embeddings ignored `COHERE_API_BASE` (rerank honored it); chat-endpoint bases now map to the same host's `/v2/embed`, explicit `api_base` passes through verbatim |
@@ -111,7 +111,7 @@
 
 </div>
 
-<p align="center"><sub>every one of the 23 merged PRs is linked in the table above — click any number to verify</sub></p>
+<p align="center"><sub>every one of the 25 merged PRs is linked in the table above — click any number to verify</sub></p>
 
 ### 📊 Stats
 
