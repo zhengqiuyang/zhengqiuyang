@@ -100,7 +100,7 @@
 | [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | ![](https://img.shields.io/github/stars/headroomlabs-ai/headroom?style=flat-square&label=%E2%98%85) | [#4875](https://github.com/headroomlabs-ai/headroom/pull/4875) | lossless tables keep strings that look like JSON containers as strings (#4874) |
 | [cline/cline](https://github.com/cline/cline) | ![](https://img.shields.io/github/stars/cline/cline?style=flat-square&label=%E2%98%85) | [#15520](https://github.com/cline/cline/pull/15520) | streaming reasoning text cleared on session reset (VSCode) |
 | [BerriAI/litellm](https://github.com/BerriAI/litellm) | ![](https://img.shields.io/github/stars/BerriAI/litellm?style=flat-square&label=%E2%98%85) | [#50249](https://github.com/BerriAI/litellm/pull/50249) | Cohere embeddings ignored `COHERE_API_BASE` (rerank honored it); chat-endpoint bases now map to the same host's `/v2/embed`, explicit `api_base` passes through verbatim |
-| [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | ![](https://img.shields.io/github/stars/alirezarezvani/claude-skills?style=flat-square&label=%E2%98%85) | [#1145](https://github.com/alirezarezvani/claude-skills/pull/1145) | `readme-polish` skill — ecosystem-calibrated README upgrades plus a deterministic lint gate |
+| [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | ![](https://img.shields.io/github/stars/alirezarezvani/claude-skills?style=flat-square&label=%E2%98%85) | [#1145](https://github.com/alirezarezvani/claude-skills/pull/1145) · [#1158](https://github.com/alirezarezvani/claude-skills/pull/1158) | **×2** — `readme-polish` (ecosystem-calibrated README upgrades + deterministic lint gate) and `source-audit` (pre-publish claim audit that quotes the source for every verdict) |
 | [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | ![](https://img.shields.io/github/stars/The-PR-Agent/pr-agent?style=flat-square&label=%E2%98%85) | [#4651](https://github.com/The-PR-Agent/pr-agent/pull/4651) · [#4652](https://github.com/The-PR-Agent/pr-agent/pull/4652) · [#4761](https://github.com/The-PR-Agent/pr-agent/pull/4761) · [#4787](https://github.com/The-PR-Agent/pr-agent/pull/4787) · [#4799](https://github.com/The-PR-Agent/pr-agent/pull/4799) | **×5** — diff-parsing robustness: unified-diff headers, fence-aware stripping, hunk mapping, per-provider line counts |
 | [makecindy/cindy](https://github.com/makecindy/cindy) | ![](https://img.shields.io/github/stars/makecindy/cindy?style=flat-square&label=%E2%98%85) | [#8569](https://github.com/makecindy/cindy/pull/8569) | DeepSeek custom tool-cleaning applied across all model spellings |
 | [wangzan101/Mika](https://github.com/wangzan101/Mika) | ![](https://img.shields.io/github/stars/wangzan101/Mika?style=flat-square&label=%E2%98%85) | [#222](https://github.com/wangzan101/Mika/pull/222) | schedules re-computed in local time right after timezone change |
@@ -111,7 +111,7 @@
 
 </div>
 
-<p align="center"><sub>every one of the 25 merged PRs is linked in the table above — click any number to verify</sub></p>
+<p align="center"><sub>every one of the 26 merged PRs is linked in the table above — click any number to verify</sub></p>
 
 ### 📊 Stats
 

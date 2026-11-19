@@ -100,7 +100,7 @@
 | [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | ![](https://img.shields.io/github/stars/headroomlabs-ai/headroom?style=flat-square&label=%E2%98%85) | [#4875](https://github.com/headroomlabs-ai/headroom/pull/4875) | 无损表格不再把长得像 JSON 容器的字符串强行转换(#4874) |
 | [cline/cline](https://github.com/cline/cline) | ![](https://img.shields.io/github/stars/cline/cline?style=flat-square&label=%E2%98%85) | [#15520](https://github.com/cline/cline/pull/15520) | 会话重置时清空流式 reasoning 文本(VSCode) |
 | [BerriAI/litellm](https://github.com/BerriAI/litellm) | ![](https://img.shields.io/github/stars/BerriAI/litellm?style=flat-square&label=%E2%98%85) | [#50249](https://github.com/BerriAI/litellm/pull/50249) | Cohere embeddings 忽略 `COHERE_API_BASE`(rerank 却遵守);chat 端点映射到同 host 的 `/v2/embed`,显式 `api_base` 原样透传 |
-| [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | ![](https://img.shields.io/github/stars/alirezarezvani/claude-skills?style=flat-square&label=%E2%98%85) | [#1145](https://github.com/alirezarezvani/claude-skills/pull/1145) | `readme-polish` skill:按仓库生态校准 README 升级 + 确定性 lint 门禁 |
+| [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | ![](https://img.shields.io/github/stars/alirezarezvani/claude-skills?style=flat-square&label=%E2%98%85) | [#1145](https://github.com/alirezarezvani/claude-skills/pull/1145) · [#1158](https://github.com/alirezarezvani/claude-skills/pull/1158) | **×2** — `readme-polish`(按仓库生态校准 README 升级 + 确定性 lint 门禁)与 `source-audit`(发布前逐链接核查断言,每条裁决附信源引文) |
 | [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | ![](https://img.shields.io/github/stars/The-PR-Agent/pr-agent?style=flat-square&label=%E2%98%85) | [#4651](https://github.com/The-PR-Agent/pr-agent/pull/4651) · [#4652](https://github.com/The-PR-Agent/pr-agent/pull/4652) · [#4761](https://github.com/The-PR-Agent/pr-agent/pull/4761) · [#4787](https://github.com/The-PR-Agent/pr-agent/pull/4787) · [#4799](https://github.com/The-PR-Agent/pr-agent/pull/4799) | **×5** — diff 解析健壮性:unified-diff 文件头、fence 感知剥离、hunk 映射、多 provider 行数统计 |
 | [makecindy/cindy](https://github.com/makecindy/cindy) | ![](https://img.shields.io/github/stars/makecindy/cindy?style=flat-square&label=%E2%98%85) | [#8569](https://github.com/makecindy/cindy/pull/8569) | DeepSeek 自定义工具清洗覆盖所有型号拼写 |
 | [wangzan101/Mika](https://github.com/wangzan101/Mika) | ![](https://img.shields.io/github/stars/wangzan101/Mika?style=flat-square&label=%E2%98%85) | [#222](https://github.com/wangzan101/Mika/pull/222) | 改时区后立即按新时区重算按当地时间的计划 |
@@ -111,7 +111,7 @@
 
 </div>
 
-<p align="center"><sub>25 个合并 PR 全部带链接——点任意编号即可核验</sub></p>
+<p align="center"><sub>26 个合并 PR 全部带链接——点任意编号即可核验</sub></p>
 
 ### 📊 数据
 
