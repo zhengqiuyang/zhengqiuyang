@@ -103,7 +103,7 @@
 | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | ![](https://img.shields.io/github/stars/alirezarezvani/claude-skills?style=flat-square&label=%E2%98%85) | [#1145](https://github.com/alirezarezvani/claude-skills/pull/1145) · [#1158](https://github.com/alirezarezvani/claude-skills/pull/1158) | **×2** — `readme-polish`(按仓库生态校准 README 升级 + 确定性 lint 门禁)与 `source-audit`(发布前逐链接核查断言,每条裁决附信源引文) |
 | [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | ![](https://img.shields.io/github/stars/The-PR-Agent/pr-agent?style=flat-square&label=%E2%98%85) | [#4651](https://github.com/The-PR-Agent/pr-agent/pull/4651) · [#4652](https://github.com/The-PR-Agent/pr-agent/pull/4652) · [#4761](https://github.com/The-PR-Agent/pr-agent/pull/4761) · [#4787](https://github.com/The-PR-Agent/pr-agent/pull/4787) · [#4799](https://github.com/The-PR-Agent/pr-agent/pull/4799) | **×5** — diff 解析健壮性:unified-diff 文件头、fence 感知剥离、hunk 映射、多 provider 行数统计 |
 | [makecindy/cindy](https://github.com/makecindy/cindy) | ![](https://img.shields.io/github/stars/makecindy/cindy?style=flat-square&label=%E2%98%85) | [#8569](https://github.com/makecindy/cindy/pull/8569) | DeepSeek 自定义工具清洗覆盖所有型号拼写 |
-| [wangzan101/Mika](https://github.com/wangzan101/Mika) | ![](https://img.shields.io/github/stars/wangzan101/Mika?style=flat-square&label=%E2%98%85) | [#222](https://github.com/wangzan101/Mika/pull/222) · [#745](https://github.com/wangzan101/Mika/pull/745) · [#746](https://github.com/wangzan101/Mika/pull/746) | **×3** — 改时区后按当地时间重算计划;压缩时保留「进度调用之后才是 ask_user」的那一轮;备份导入先全量 staging,失败不破坏旧数据 |
+| [wangzan101/Mika](https://github.com/wangzan101/Mika) | ![](https://img.shields.io/github/stars/wangzan101/Mika?style=flat-square&label=%E2%98%85) | [#222](https://github.com/wangzan101/Mika/pull/222) · [#745](https://github.com/wangzan101/Mika/pull/745) · [#746](https://github.com/wangzan101/Mika/pull/746) · [#767](https://github.com/wangzan101/Mika/pull/767) | **×4** — 改时区后按当地时间重算计划;压缩时保留「进度调用之后才是 ask_user」的那一轮;备份导入先全量 staging,失败不破坏旧数据;导出拒绝超过导入上限的备份 |
 | [opengeos/GeoLibre](https://github.com/opengeos/GeoLibre) | ![](https://img.shields.io/github/stars/opengeos/GeoLibre?style=flat-square&label=%E2%98%85) | [#3301](https://github.com/opengeos/GeoLibre/pull/3301) | 新增 `readPluginAsset` app API,供插件自带资源读取 |
 | [TestSprite/testsprite-cli](https://github.com/TestSprite/testsprite-cli) | ![](https://img.shields.io/github/stars/TestSprite/testsprite-cli?style=flat-square&label=%E2%98%85) | [#723](https://github.com/TestSprite/testsprite-cli/pull/723) · [#724](https://github.com/TestSprite/testsprite-cli/pull/724) | **×2** — 统一 JUnit 报告参数规则;同名测试保持区分 |
 | [opengeos/geoai](https://github.com/opengeos/geoai) | ![](https://img.shields.io/github/stars/opengeos/geoai?style=flat-square&label=%E2%98%85) | [#949](https://github.com/opengeos/geoai/pull/949) · [#950](https://github.com/opengeos/geoai/pull/950) | **×2** — 尊重 `device`/`model` 参数;补回缺失的 einops 依赖 |
@@ -111,7 +111,7 @@
 
 </div>
 
-<p align="center"><sub>29 个合并 PR 全部带链接——点任意编号即可核验</sub></p>
+<p align="center"><sub>30 个合并 PR 全部带链接——点任意编号即可核验</sub></p>
 
 ### 📊 数据
 
