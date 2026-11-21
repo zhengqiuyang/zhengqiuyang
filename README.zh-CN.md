@@ -34,7 +34,7 @@
 **个人项目**
 
 | 仓库 | 简介 |
-|---|---|
+|:---:|:---:|
 | [gloss](https://github.com/zhengqiuyang/gloss) | 查一次,永久拥有 —— 以 LLM 为心的生词本,本地优先,兼容任意 OpenAI 接口 |
 | [harness-visualizer](https://github.com/zhengqiuyang/harness-visualizer) | 把 agent 的外围系统(harness)从配置自动可视化成交互结构图 |
 | [lexiflow](https://github.com/zhengqiuyang/lexiflow) | 本地优先的全能英语学习应用:沉浸阅读 + SM-2 + 词书 + AI 口语(BYO key),零构建零依赖 |
@@ -50,7 +50,7 @@
 **dsh 插件** —— 10 个被 [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)(24.5k★)收录
 
 | 插件 | 简介 |
-|---|---|
+|:---:|:---:|
 | [dsh-read-guard](https://github.com/zhengqiuyang/dsh-read-guard) | 提示注入拦截:在进入模型上下文之前扫描代理读了什么,抗混淆 |
 | [dsh-pr-gate](https://github.com/zhengqiuyang/dsh-pr-gate) | 确定性写入门禁:写入瞬间的范围策略 + 残留扫描 |
 | [dsh-attest-chain](https://github.com/zhengqiuyang/dsh-attest-chain) | 签名监管链:哈希链 + ed25519 签名,记录代理的真实行为 |
@@ -73,7 +73,7 @@
 <div align="center">
 
 | 技能 | 做什么 |
-|---|---|
+|:---:|:---:|
 | [monetize](https://github.com/zhengqiuyang/monetize-skill) | 把职业经历变成诚实、可执行的副业收入方案：六模块、数字带来源、只给一个杠杆动作 |
 | [readme-polish](https://github.com/zhengqiuyang/readme-polish) | 把已有 README 升级到同生态头部仓库的水准，附确定性 lint 门禁 |
 | [source-audit](https://github.com/zhengqiuyang/source-audit) | 发布前信源审计：逐链接抓取，核对中文稿件里的每条断言 |
@@ -81,7 +81,7 @@
 **安装：** `npx skills add zhengqiuyang/<repo>`，例如 `npx skills add zhengqiuyang/monetize-skill`
 
 | 配套工具 | 做什么 |
-|---|---|
+|:---:|:---:|
 | [skill-ci](https://github.com/zhengqiuyang/skill-ci) | 技能的静态 CI：lint `SKILL.md`、测试触发选择、卡 PR |
 | [vendor-skills](https://github.com/zhengqiuyang/vendor-skills) | 锁定版本、校验后再 vendoring —— 可复现、离线安装 |
 
@@ -94,14 +94,15 @@
 <div align="center">
 
 | 仓库 | ★ | PRs | 修了什么 |
-|---|:-:|:-:|---|
+|:---:|:-:|:-:|:---:|
 | [home-assistant/core](https://github.com/home-assistant/core) | ![](https://img.shields.io/github/stars/home-assistant/core?style=flat-square&label=%E2%98%85) | [#190963](https://github.com/home-assistant/core/pull/190963) · [#191537](https://github.com/home-assistant/core/pull/191537) · [#189882](https://github.com/home-assistant/core/pull/189882) · [#189876](https://github.com/home-assistant/core/pull/189876) · [#189635](https://github.com/home-assistant/core/pull/189635) | **×5** — tplink_omada 传感器崩溃修复、WeatherFlow 实体卡死、诊断信息 PSK 脱敏、imou 发现匹配器 |
 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | ![](https://img.shields.io/github/stars/heygen-com/hyperframes?style=flat-square&label=%E2%98%85) | [#8019](https://github.com/heygen-com/hyperframes/pull/8019) · [#8032](https://github.com/heygen-com/hyperframes/pull/8032) · [#8037](https://github.com/heygen-com/hyperframes/pull/8037) · [#8133](https://github.com/heygen-com/hyperframes/pull/8133) | **×4** — overlap 编码器线程限制在空闲核(#7458);lint 时间解析钳负值 `data-start`(#8031)、跳过运行时解析的 mount 起点而非虚构空白尾(#8036) |
-| [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | ![](https://img.shields.io/github/stars/headroomlabs-ai/headroom?style=flat-square&label=%E2%98%85) | [#4875](https://github.com/headroomlabs-ai/headroom/pull/4875) | 无损表格不再把长得像 JSON 容器的字符串强行转换(#4874) |
+| [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | ![](https://img.shields.io/github/stars/headroomlabs-ai/headroom?style=flat-square&label=%E2%98%85) | [#4875](https://github.com/headroomlabs-ai/headroom/pull/4875) · [#4904](https://github.com/headroomlabs-ai/headroom/pull/4904) | **×2** — 无损表格不再把长得像 JSON 容器的字符串强行转换(#4874);同一 WS handle 重新注册时保留 relay 任务 |
 | [cline/cline](https://github.com/cline/cline) | ![](https://img.shields.io/github/stars/cline/cline?style=flat-square&label=%E2%98%85) | [#15520](https://github.com/cline/cline/pull/15520) | 会话重置时清空流式 reasoning 文本(VSCode) |
 | [BerriAI/litellm](https://github.com/BerriAI/litellm) | ![](https://img.shields.io/github/stars/BerriAI/litellm?style=flat-square&label=%E2%98%85) | [#50249](https://github.com/BerriAI/litellm/pull/50249) | Cohere embeddings 忽略 `COHERE_API_BASE`(rerank 却遵守);chat 端点映射到同 host 的 `/v2/embed`,显式 `api_base` 原样透传 |
 | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | ![](https://img.shields.io/github/stars/alirezarezvani/claude-skills?style=flat-square&label=%E2%98%85) | [#1145](https://github.com/alirezarezvani/claude-skills/pull/1145) · [#1158](https://github.com/alirezarezvani/claude-skills/pull/1158) | **×2** — `readme-polish`(按仓库生态校准 README 升级 + 确定性 lint 门禁)与 `source-audit`(发布前逐链接核查断言,每条裁决附信源引文) |
 | [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | ![](https://img.shields.io/github/stars/The-PR-Agent/pr-agent?style=flat-square&label=%E2%98%85) | [#4651](https://github.com/The-PR-Agent/pr-agent/pull/4651) · [#4652](https://github.com/The-PR-Agent/pr-agent/pull/4652) · [#4761](https://github.com/The-PR-Agent/pr-agent/pull/4761) · [#4787](https://github.com/The-PR-Agent/pr-agent/pull/4787) · [#4799](https://github.com/The-PR-Agent/pr-agent/pull/4799) | **×5** — diff 解析健壮性:unified-diff 文件头、fence 感知剥离、hunk 映射、多 provider 行数统计 |
+| [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | ![](https://img.shields.io/github/stars/awesome-dsh-plugin/awesome-dsh-plugin?style=flat-square&label=%E2%98%85) | [#7227](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/7227) · [#7700](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/7700) · [#7701](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/7701) · [#7743](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/7743) · [#8133](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/8133) | **×5** — 在目录中收录 10 个 dsh 插件:read-guard、pr-gate、attest-chain、mcp-test、egress-gate、prompt-drift、janitor、freeze、compaction-guard、trust-panel |
 | [makecindy/cindy](https://github.com/makecindy/cindy) | ![](https://img.shields.io/github/stars/makecindy/cindy?style=flat-square&label=%E2%98%85) | [#8569](https://github.com/makecindy/cindy/pull/8569) | DeepSeek 自定义工具清洗覆盖所有型号拼写 |
 | [wangzan101/Mika](https://github.com/wangzan101/Mika) | ![](https://img.shields.io/github/stars/wangzan101/Mika?style=flat-square&label=%E2%98%85) | [#222](https://github.com/wangzan101/Mika/pull/222) · [#745](https://github.com/wangzan101/Mika/pull/745) · [#746](https://github.com/wangzan101/Mika/pull/746) · [#767](https://github.com/wangzan101/Mika/pull/767) | **×4** — 改时区后按当地时间重算计划;压缩时保留「进度调用之后才是 ask_user」的那一轮;备份导入先全量 staging,失败不破坏旧数据;导出拒绝超过导入上限的备份 |
 | [opengeos/GeoLibre](https://github.com/opengeos/GeoLibre) | ![](https://img.shields.io/github/stars/opengeos/GeoLibre?style=flat-square&label=%E2%98%85) | [#3301](https://github.com/opengeos/GeoLibre/pull/3301) | 新增 `readPluginAsset` app API,供插件自带资源读取 |
@@ -111,7 +112,7 @@
 
 </div>
 
-<p align="center"><sub>30 个合并 PR 全部带链接——点任意编号即可核验</sub></p>
+<p align="center"><sub>表内每条 PR 都带链接;累计 38 条合并,其中 3 条在自有仓库,点任意编号即可核验</sub></p>
 
 ### 📊 数据
 

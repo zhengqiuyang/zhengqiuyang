@@ -34,7 +34,7 @@
 **Personal projects**
 
 | Repo | What it is |
-|---|---|
+|:---:|:---:|
 | [gloss](https://github.com/zhengqiuyang/gloss) | Learn a term once, own it forever — a vocabulary notebook with an LLM for a heart · 查一次,永久拥有. Local-first, any OpenAI-compatible API |
 | [harness-visualizer](https://github.com/zhengqiuyang/harness-visualizer) | Auto-visualize your agent's harness (outer system) as an interactive diagram · 把 agent 外围系统从配置自动可视化成结构图 |
 | [lexiflow](https://github.com/zhengqiuyang/lexiflow) | 本地优先的全能英语学习应用:沉浸阅读 + SM-2 + 词书 + AI 口语(BYO key),零构建零依赖 |
@@ -50,7 +50,7 @@
 **dsh plugins** — 10 of them listed in [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) (24.5k★)
 
 | Plugin | What it does |
-|---|---|
+|:---:|:---:|
 | [dsh-read-guard](https://github.com/zhengqiuyang/dsh-read-guard) | Prompt-injection interception — scans what the agent READS before it enters model context; obfuscation-resistant |
 | [dsh-pr-gate](https://github.com/zhengqiuyang/dsh-pr-gate) | Deterministic write gate — scope policy + residue scan at the moment of the write |
 | [dsh-attest-chain](https://github.com/zhengqiuyang/dsh-attest-chain) | Signed chain-of-custody — hash-chained, ed25519-signed records of what the agent actually did |
@@ -73,7 +73,7 @@
 <div align="center">
 
 | Skill | What it does |
-|---|---|
+|:---:|:---:|
 | [monetize](https://github.com/zhengqiuyang/monetize-skill) | Turn a career history into an honest, actionable side-income plan — six modules, sourced numbers, one leverage action |
 | [readme-polish](https://github.com/zhengqiuyang/readme-polish) | Upgrade an existing README to the top-repo standard of its own ecosystem, with a deterministic lint gate |
 | [source-audit](https://github.com/zhengqiuyang/source-audit) | Pre-publish source audit — fetch every cited link, grade every claim in a Chinese draft |
@@ -81,7 +81,7 @@
 **Install:** `npx skills add zhengqiuyang/<repo>` — e.g. `npx skills add zhengqiuyang/monetize-skill`
 
 | Tooling | What it does |
-|---|---|
+|:---:|:---:|
 | [skill-ci](https://github.com/zhengqiuyang/skill-ci) | Static CI for agent skills — lint `SKILL.md`, test trigger selection, gate PRs |
 | [vendor-skills](https://github.com/zhengqiuyang/vendor-skills) | Pinned, validated skill vendoring — reproducible, offline installs |
 
@@ -94,14 +94,15 @@
 <div align="center">
 
 | Repo | ★ | PRs | Shipped |
-|---|:-:|:-:|---|
+|:---:|:-:|:-:|:---:|
 | [home-assistant/core](https://github.com/home-assistant/core) | ![](https://img.shields.io/github/stars/home-assistant/core?style=flat-square&label=%E2%98%85) | [#190963](https://github.com/home-assistant/core/pull/190963) · [#191537](https://github.com/home-assistant/core/pull/191537) · [#189882](https://github.com/home-assistant/core/pull/189882) · [#189876](https://github.com/home-assistant/core/pull/189876) · [#189635](https://github.com/home-assistant/core/pull/189635) | **×5** — tplink_omada sensor crash fixes, WeatherFlow stuck entities, PSK redaction in diagnostics, imou discovery matchers |
 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | ![](https://img.shields.io/github/stars/heygen-com/hyperframes?style=flat-square&label=%E2%98%85) | [#8019](https://github.com/heygen-com/hyperframes/pull/8019) · [#8032](https://github.com/heygen-com/hyperframes/pull/8032) · [#8037](https://github.com/heygen-com/hyperframes/pull/8037) · [#8133](https://github.com/heygen-com/hyperframes/pull/8133) | **×4** — overlap renders cap the software encoder to the cores capture leaves free (#7458); lint timing reader now clamps a negative `data-start` (#8031) and skips a runtime-resolved mount start instead of inventing a blank tail (#8036) |
-| [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | ![](https://img.shields.io/github/stars/headroomlabs-ai/headroom?style=flat-square&label=%E2%98%85) | [#4875](https://github.com/headroomlabs-ai/headroom/pull/4875) | lossless tables keep strings that look like JSON containers as strings (#4874) |
+| [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | ![](https://img.shields.io/github/stars/headroomlabs-ai/headroom?style=flat-square&label=%E2%98%85) | [#4875](https://github.com/headroomlabs-ai/headroom/pull/4875) · [#4904](https://github.com/headroomlabs-ai/headroom/pull/4904) | **×2** — lossless tables keep strings that look like JSON containers as strings (#4874); relay tasks survive re-registering the same WS handle |
 | [cline/cline](https://github.com/cline/cline) | ![](https://img.shields.io/github/stars/cline/cline?style=flat-square&label=%E2%98%85) | [#15520](https://github.com/cline/cline/pull/15520) | streaming reasoning text cleared on session reset (VSCode) |
 | [BerriAI/litellm](https://github.com/BerriAI/litellm) | ![](https://img.shields.io/github/stars/BerriAI/litellm?style=flat-square&label=%E2%98%85) | [#50249](https://github.com/BerriAI/litellm/pull/50249) | Cohere embeddings ignored `COHERE_API_BASE` (rerank honored it); chat-endpoint bases now map to the same host's `/v2/embed`, explicit `api_base` passes through verbatim |
 | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | ![](https://img.shields.io/github/stars/alirezarezvani/claude-skills?style=flat-square&label=%E2%98%85) | [#1145](https://github.com/alirezarezvani/claude-skills/pull/1145) · [#1158](https://github.com/alirezarezvani/claude-skills/pull/1158) | **×2** — `readme-polish` (ecosystem-calibrated README upgrades + deterministic lint gate) and `source-audit` (pre-publish claim audit that quotes the source for every verdict) |
 | [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | ![](https://img.shields.io/github/stars/The-PR-Agent/pr-agent?style=flat-square&label=%E2%98%85) | [#4651](https://github.com/The-PR-Agent/pr-agent/pull/4651) · [#4652](https://github.com/The-PR-Agent/pr-agent/pull/4652) · [#4761](https://github.com/The-PR-Agent/pr-agent/pull/4761) · [#4787](https://github.com/The-PR-Agent/pr-agent/pull/4787) · [#4799](https://github.com/The-PR-Agent/pr-agent/pull/4799) | **×5** — diff-parsing robustness: unified-diff headers, fence-aware stripping, hunk mapping, per-provider line counts |
+| [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | ![](https://img.shields.io/github/stars/awesome-dsh-plugin/awesome-dsh-plugin?style=flat-square&label=%E2%98%85) | [#7227](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/7227) · [#7700](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/7700) · [#7701](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/7701) · [#7743](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/7743) · [#8133](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/8133) | **×5** — listed ten dsh plugins in the catalog: read-guard, pr-gate, attest-chain, mcp-test, egress-gate, prompt-drift, janitor, freeze, compaction-guard, trust-panel |
 | [makecindy/cindy](https://github.com/makecindy/cindy) | ![](https://img.shields.io/github/stars/makecindy/cindy?style=flat-square&label=%E2%98%85) | [#8569](https://github.com/makecindy/cindy/pull/8569) | DeepSeek custom tool-cleaning applied across all model spellings |
 | [wangzan101/Mika](https://github.com/wangzan101/Mika) | ![](https://img.shields.io/github/stars/wangzan101/Mika?style=flat-square&label=%E2%98%85) | [#222](https://github.com/wangzan101/Mika/pull/222) · [#745](https://github.com/wangzan101/Mika/pull/745) · [#746](https://github.com/wangzan101/Mika/pull/746) · [#767](https://github.com/wangzan101/Mika/pull/767) | **×4** — timezone-change schedules recomputed in local time; compression keeps the round whose ask_user follows a progress call; backup import stages every entry so a failure leaves the old data intact; export refuses a backup the import cap would reject |
 | [opengeos/GeoLibre](https://github.com/opengeos/GeoLibre) | ![](https://img.shields.io/github/stars/opengeos/GeoLibre?style=flat-square&label=%E2%98%85) | [#3301](https://github.com/opengeos/GeoLibre/pull/3301) | `readPluginAsset` app API for plugin-bundled assets |
@@ -111,7 +112,7 @@
 
 </div>
 
-<p align="center"><sub>every one of the 30 merged PRs is linked in the table above — click any number to verify</sub></p>
+<p align="center"><sub>every PR in the table is linked — 38 merged in total, 3 in my own repos; click any number to verify</sub></p>
 
 ### 📊 Stats
 
