@@ -15,7 +15,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/%E8%87%AA%E5%BB%BA%E4%BB%93%E5%BA%93-50-7C3AED?style=flat-square&logo=github&logoColor=white" alt="repos" />
   <img src="https://img.shields.io/badge/awesome_dsh_plugin-10_plugins_%C2%B7_24.5k%E2%98%85-22C55E?style=flat-square" alt="awesome" />
-  <img src="https://img.shields.io/badge/%E5%90%88%E8%BF%9B-470k%2B%E2%98%85_%E5%BC%80%E6%BA%90-06B6D4?style=flat-square" alt="reach" />
+  <img src="https://img.shields.io/badge/%E5%90%88%E8%BF%9B-526k%2B%E2%98%85_%E5%BC%80%E6%BA%90-06B6D4?style=flat-square" alt="reach" />
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@
   <a href="./README.zh-CN.md"><img src="https://img.shields.io/badge/lang-%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-06B6D4?style=flat-square" alt="简体中文" /></a>
 </p>
 
-<p align="center">🧭 用确定性给 agent 造护栏 · 修进 470k+★ 的开源项目</p>
+<p align="center">🧭 用确定性给 agent 造护栏 · 修进 526k+★ 的开源项目</p>
 
 ### 🧰 项目
 
@@ -113,7 +113,7 @@
 
 </div>
 
-<p align="center"><sub>表内每条 PR 都带链接;累计 39 条合并,其中 3 条在自有仓库,点任意编号即可核验</sub></p>
+<p align="center"><sub>表内每条 PR 都带链接;累计 39 条合并,其中 3 条在自有仓库;#1158 随 v2.14.15 发布,不是 merge</sub></p>
 
 ### 📊 数据
 
@@ -134,7 +134,7 @@
   </tr>
 </table>
 
-<p align="center"><sub>数字采集于 2026-11-14 GitHub API · 每一条都能点开上面的链接验证</sub></p>
+<p align="center"><sub>数字采集于 2026-11-22 GitHub API · 每一条都能点开上面的链接验证</sub></p>
 
 ### 🐍 贡献蛇
 

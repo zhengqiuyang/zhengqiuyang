@@ -15,7 +15,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/repos_built-50-7C3AED?style=flat-square&logo=github&logoColor=white" alt="repos" />
   <img src="https://img.shields.io/badge/awesome_dsh_plugin-10_plugins_%C2%B7_24.5k%E2%98%85-22C55E?style=flat-square" alt="awesome" />
-  <img src="https://img.shields.io/badge/merged_into-470k%2B%E2%98%85_of_OSS-06B6D4?style=flat-square" alt="reach" />
+  <img src="https://img.shields.io/badge/merged_into-526k%2B%E2%98%85_of_OSS-06B6D4?style=flat-square" alt="reach" />
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@
   <a href="./README.zh-CN.md"><img src="https://img.shields.io/badge/lang-%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-06B6D4?style=flat-square" alt="简体中文" /></a>
 </p>
 
-<p align="center">🧭 building deterministic agent tooling · fixing real bugs in 470k+★ of open source</p>
+<p align="center">🧭 building deterministic agent tooling · fixing real bugs in 526k+★ of open source</p>
 
 ### 🧰 Projects
 
@@ -113,7 +113,7 @@
 
 </div>
 
-<p align="center"><sub>every PR in the table is linked — 39 merged in total, 3 in my own repos; click any number to verify</sub></p>
+<p align="center"><sub>every PR in the table is linked — 39 merged in total, 3 in my own repos; #1158 landed in v2.14.15 via release rather than a merge</sub></p>
 
 ### 📊 Stats
 
@@ -134,7 +134,7 @@
   </tr>
 </table>
 
-<p align="center"><sub>numbers collected 2026-11-17 via GitHub API — every claim verifiable through the links above</sub></p>
+<p align="center"><sub>numbers collected 2026-11-22 via GitHub API — every claim verifiable through the links above</sub></p>
 
 ### 🐍 Contribution snake
 
