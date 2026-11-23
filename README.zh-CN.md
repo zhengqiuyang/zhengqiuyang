@@ -95,7 +95,7 @@
 
 | 仓库 | ★ | PRs | 修了什么 |
 |:---:|:-:|:-:|:---:|
-| [home-assistant/core](https://github.com/home-assistant/core) | ![](https://img.shields.io/github/stars/home-assistant/core?style=flat-square&label=%E2%98%85) | [#190963](https://github.com/home-assistant/core/pull/190963) · [#191537](https://github.com/home-assistant/core/pull/191537) · [#189882](https://github.com/home-assistant/core/pull/189882) · [#189876](https://github.com/home-assistant/core/pull/189876) · [#189635](https://github.com/home-assistant/core/pull/189635) | **×5** — tplink_omada 传感器崩溃修复、WeatherFlow 实体卡死、诊断信息 PSK 脱敏、imou 发现匹配器 |
+| [home-assistant/core](https://github.com/home-assistant/core) | ![](https://img.shields.io/github/stars/home-assistant/core?style=flat-square&label=%E2%98%85) | [#190963](https://github.com/home-assistant/core/pull/190963) · [#191537](https://github.com/home-assistant/core/pull/191537) · [#189882](https://github.com/home-assistant/core/pull/189882) · [#189876](https://github.com/home-assistant/core/pull/189876) · [#189635](https://github.com/home-assistant/core/pull/189635) · [#191601](https://github.com/home-assistant/core/pull/191601) | **×6** — tplink_omada 传感器崩溃修复、WeatherFlow 实体卡死、诊断信息 PSK 脱敏、imou 发现匹配器、WLED zeroconf 对 ignored entry 抛 KeyError |
 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | ![](https://img.shields.io/github/stars/heygen-com/hyperframes?style=flat-square&label=%E2%98%85) | [#8019](https://github.com/heygen-com/hyperframes/pull/8019) · [#8032](https://github.com/heygen-com/hyperframes/pull/8032) · [#8037](https://github.com/heygen-com/hyperframes/pull/8037) · [#8133](https://github.com/heygen-com/hyperframes/pull/8133) | **×4** — overlap 编码器线程限制在空闲核(#7458);lint 时间解析钳负值 `data-start`(#8031)、跳过运行时解析的 mount 起点而非虚构空白尾(#8036) |
 | [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | ![](https://img.shields.io/github/stars/headroomlabs-ai/headroom?style=flat-square&label=%E2%98%85) | [#4875](https://github.com/headroomlabs-ai/headroom/pull/4875) · [#4904](https://github.com/headroomlabs-ai/headroom/pull/4904) | **×2** — 无损表格不再把长得像 JSON 容器的字符串强行转换(#4874);同一 WS handle 重新注册时保留 relay 任务 |
 | [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) | ![](https://img.shields.io/github/stars/google-deepmind/mujoco?style=flat-square&label=%E2%98%85) | [#3818](https://github.com/google-deepmind/mujoco/pull/3818) | `rollout` 接受 `MjData` 序列,不再只接受 list(#3817) |
@@ -113,7 +113,7 @@
 
 </div>
 
-<p align="center"><sub>表内每条 PR 都带链接;累计 40 条合并,其中 3 条在自有仓库;#1158 随 v2.14.15 发布,不是 merge</sub></p>
+<p align="center"><sub>表内每条 PR 都带链接;累计 41 条合并,其中 3 条在自有仓库;#1158 随 v2.14.15 发布,不是 merge</sub></p>
 
 ### 📊 数据
 

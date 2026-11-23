@@ -95,7 +95,7 @@
 
 | Repo | ★ | PRs | Shipped |
 |:---:|:-:|:-:|:---:|
-| [home-assistant/core](https://github.com/home-assistant/core) | ![](https://img.shields.io/github/stars/home-assistant/core?style=flat-square&label=%E2%98%85) | [#190963](https://github.com/home-assistant/core/pull/190963) · [#191537](https://github.com/home-assistant/core/pull/191537) · [#189882](https://github.com/home-assistant/core/pull/189882) · [#189876](https://github.com/home-assistant/core/pull/189876) · [#189635](https://github.com/home-assistant/core/pull/189635) | **×5** — tplink_omada sensor crash fixes, WeatherFlow stuck entities, PSK redaction in diagnostics, imou discovery matchers |
+| [home-assistant/core](https://github.com/home-assistant/core) | ![](https://img.shields.io/github/stars/home-assistant/core?style=flat-square&label=%E2%98%85) | [#190963](https://github.com/home-assistant/core/pull/190963) · [#191537](https://github.com/home-assistant/core/pull/191537) · [#189882](https://github.com/home-assistant/core/pull/189882) · [#189876](https://github.com/home-assistant/core/pull/189876) · [#189635](https://github.com/home-assistant/core/pull/189635) · [#191601](https://github.com/home-assistant/core/pull/191601) | **×6** — tplink_omada sensor crash fixes, WeatherFlow stuck entities, PSK redaction in diagnostics, imou discovery matchers, WLED zeroconf KeyError on ignored entries |
 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | ![](https://img.shields.io/github/stars/heygen-com/hyperframes?style=flat-square&label=%E2%98%85) | [#8019](https://github.com/heygen-com/hyperframes/pull/8019) · [#8032](https://github.com/heygen-com/hyperframes/pull/8032) · [#8037](https://github.com/heygen-com/hyperframes/pull/8037) · [#8133](https://github.com/heygen-com/hyperframes/pull/8133) | **×4** — overlap renders cap the software encoder to the cores capture leaves free (#7458); lint timing reader now clamps a negative `data-start` (#8031) and skips a runtime-resolved mount start instead of inventing a blank tail (#8036) |
 | [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | ![](https://img.shields.io/github/stars/headroomlabs-ai/headroom?style=flat-square&label=%E2%98%85) | [#4875](https://github.com/headroomlabs-ai/headroom/pull/4875) · [#4904](https://github.com/headroomlabs-ai/headroom/pull/4904) | **×2** — lossless tables keep strings that look like JSON containers as strings (#4874); relay tasks survive re-registering the same WS handle |
 | [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) | ![](https://img.shields.io/github/stars/google-deepmind/mujoco?style=flat-square&label=%E2%98%85) | [#3818](https://github.com/google-deepmind/mujoco/pull/3818) | `rollout` accepts a sequence of `MjData`, not only a list (#3817) |
@@ -113,7 +113,7 @@
 
 </div>
 
-<p align="center"><sub>every PR in the table is linked — 40 merged in total, 3 in my own repos; #1158 landed in v2.14.15 via release rather than a merge</sub></p>
+<p align="center"><sub>every PR in the table is linked — 41 merged in total, 3 in my own repos; #1158 landed in v2.14.15 via release rather than a merge</sub></p>
 
 ### 📊 Stats
 
