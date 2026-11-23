@@ -102,7 +102,7 @@
 | [cline/cline](https://github.com/cline/cline) | ![](https://img.shields.io/github/stars/cline/cline?style=flat-square&label=%E2%98%85) | [#15520](https://github.com/cline/cline/pull/15520) | 会话重置时清空流式 reasoning 文本(VSCode) |
 | [BerriAI/litellm](https://github.com/BerriAI/litellm) | ![](https://img.shields.io/github/stars/BerriAI/litellm?style=flat-square&label=%E2%98%85) | [#50249](https://github.com/BerriAI/litellm/pull/50249) | Cohere embeddings 忽略 `COHERE_API_BASE`(rerank 却遵守);chat 端点映射到同 host 的 `/v2/embed`,显式 `api_base` 原样透传 |
 | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | ![](https://img.shields.io/github/stars/alirezarezvani/claude-skills?style=flat-square&label=%E2%98%85) | [#1145](https://github.com/alirezarezvani/claude-skills/pull/1145) · [#1158](https://github.com/alirezarezvani/claude-skills/pull/1158) | **×2** — `readme-polish`(按仓库生态校准 README 升级 + 确定性 lint 门禁)与 `source-audit`(发布前逐链接核查断言,每条裁决附信源引文) |
-| [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | ![](https://img.shields.io/github/stars/The-PR-Agent/pr-agent?style=flat-square&label=%E2%98%85) | [#4651](https://github.com/The-PR-Agent/pr-agent/pull/4651) · [#4652](https://github.com/The-PR-Agent/pr-agent/pull/4652) · [#4761](https://github.com/The-PR-Agent/pr-agent/pull/4761) · [#4787](https://github.com/The-PR-Agent/pr-agent/pull/4787) · [#4799](https://github.com/The-PR-Agent/pr-agent/pull/4799) | **×5** — diff 解析健壮性:unified-diff 文件头、fence 感知剥离、hunk 映射、多 provider 行数统计 |
+| [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | ![](https://img.shields.io/github/stars/The-PR-Agent/pr-agent?style=flat-square&label=%E2%98%85) | [#4651](https://github.com/The-PR-Agent/pr-agent/pull/4651) · [#4652](https://github.com/The-PR-Agent/pr-agent/pull/4652) · [#4761](https://github.com/The-PR-Agent/pr-agent/pull/4761) · [#4787](https://github.com/The-PR-Agent/pr-agent/pull/4787) · [#4799](https://github.com/The-PR-Agent/pr-agent/pull/4799) · [#5106](https://github.com/The-PR-Agent/pr-agent/pull/5106) | **×6** — diff 解析健壮性:unified-diff 文件头、fence 感知剥离、hunk 映射、多 provider 行数统计;tilde/backtick 围栏字符与长度匹配 |
 | [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | ![](https://img.shields.io/github/stars/awesome-dsh-plugin/awesome-dsh-plugin?style=flat-square&label=%E2%98%85) | [#7227](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/7227) · [#7700](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/7700) · [#7701](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/7701) · [#7743](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/7743) · [#8133](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/8133) | **×5** — 在目录中收录 10 个 dsh 插件:read-guard、pr-gate、attest-chain、mcp-test、egress-gate、prompt-drift、janitor、freeze、compaction-guard、trust-panel |
 | [makecindy/cindy](https://github.com/makecindy/cindy) | ![](https://img.shields.io/github/stars/makecindy/cindy?style=flat-square&label=%E2%98%85) | [#8569](https://github.com/makecindy/cindy/pull/8569) | DeepSeek 自定义工具清洗覆盖所有型号拼写 |
 | [wangzan101/Mika](https://github.com/wangzan101/Mika) | ![](https://img.shields.io/github/stars/wangzan101/Mika?style=flat-square&label=%E2%98%85) | [#222](https://github.com/wangzan101/Mika/pull/222) · [#745](https://github.com/wangzan101/Mika/pull/745) · [#746](https://github.com/wangzan101/Mika/pull/746) · [#767](https://github.com/wangzan101/Mika/pull/767) | **×4** — 改时区后按当地时间重算计划;压缩时保留「进度调用之后才是 ask_user」的那一轮;备份导入先全量 staging,失败不破坏旧数据;导出拒绝超过导入上限的备份 |
@@ -113,7 +113,7 @@
 
 </div>
 
-<p align="center"><sub>表内每条 PR 都带链接;累计 39 条合并,其中 3 条在自有仓库;#1158 随 v2.14.15 发布,不是 merge</sub></p>
+<p align="center"><sub>表内每条 PR 都带链接;累计 40 条合并,其中 3 条在自有仓库;#1158 随 v2.14.15 发布,不是 merge</sub></p>
 
 ### 📊 数据
 
@@ -134,7 +134,7 @@
   </tr>
 </table>
 
-<p align="center"><sub>数字采集于 2026-11-22 GitHub API · 每一条都能点开上面的链接验证</sub></p>
+<p align="center"><sub>数字采集于 2026-11-23 GitHub API · 每一条都能点开上面的链接验证</sub></p>
 
 ### 🐍 贡献蛇
 
