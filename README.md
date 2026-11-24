@@ -35,6 +35,7 @@
 
 | Repo | What it is |
 |:---:|:---:|
+| [bug-vet](https://github.com/zhengqiuyang/bug-vet) | Contract-bug hunter — structural oracles + executable red/green proof + fail-closed evidence gate · 契约级 Bug 猎人,12 个真实合并 bug 召回 10/12 |
 | [gloss](https://github.com/zhengqiuyang/gloss) | Learn a term once, own it forever — a vocabulary notebook with an LLM for a heart · 查一次,永久拥有. Local-first, any OpenAI-compatible API |
 | [harness-visualizer](https://github.com/zhengqiuyang/harness-visualizer) | Auto-visualize your agent's harness (outer system) as an interactive diagram · 把 agent 外围系统从配置自动可视化成结构图 |
 | [lexiflow](https://github.com/zhengqiuyang/lexiflow) | 本地优先的全能英语学习应用:沉浸阅读 + SM-2 + 词书 + AI 口语(BYO key),零构建零依赖 |

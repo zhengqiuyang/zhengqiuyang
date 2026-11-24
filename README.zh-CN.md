@@ -35,6 +35,7 @@
 
 | 仓库 | 简介 |
 |:---:|:---:|
+| [bug-vet](https://github.com/zhengqiuyang/bug-vet) | 契约级 Bug 猎人:结构化 oracle + 可执行红绿证据 + fail-closed 门禁 · 12 个真实合并 bug 召回 10/12 |
 | [gloss](https://github.com/zhengqiuyang/gloss) | 查一次,永久拥有 —— 以 LLM 为心的生词本,本地优先,兼容任意 OpenAI 接口 |
 | [harness-visualizer](https://github.com/zhengqiuyang/harness-visualizer) | 把 agent 的外围系统(harness)从配置自动可视化成交互结构图 |
 | [lexiflow](https://github.com/zhengqiuyang/lexiflow) | 本地优先的全能英语学习应用:沉浸阅读 + SM-2 + 词书 + AI 口语(BYO key),零构建零依赖 |
